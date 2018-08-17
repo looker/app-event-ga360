@@ -251,7 +251,7 @@
       First Time Visitor: ga_sessions.first_time_visitor
       Country: geoNetwork.country
       Page: first_page.pageTitle
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 0
     col: 8
     width: 4
@@ -483,7 +483,7 @@
       First Time Visitor: ga_sessions.first_time_visitor
       Country: geoNetwork.country
       Page: first_page.pageTitle
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 0
     col: 0
     width: 4
@@ -715,7 +715,7 @@
       First Time Visitor: ga_sessions.first_time_visitor
       Country: geoNetwork.country
       Page: first_page.pageTitle
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 0
     col: 4
     width: 4
@@ -947,7 +947,7 @@
       First Time Visitor: ga_sessions.first_time_visitor
       Country: geoNetwork.country
       Page: first_page.pageTitle
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 0
     col: 12
     width: 4
@@ -1179,7 +1179,7 @@
       First Time Visitor: ga_sessions.first_time_visitor
       Country: geoNetwork.country
       Page: first_page.pageTitle
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 0
     col: 20
     width: 4
@@ -1422,7 +1422,7 @@
       First Time Visitor: ga_sessions.first_time_visitor
       Country: geoNetwork.country
       Page: first_page.pageTitle
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 0
     col: 16
     width: 4
@@ -1560,7 +1560,7 @@
       First Time Visitor: ga_sessions.first_time_visitor
       Country: geoNetwork.country
       Page: first_page.pageTitle
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 12
     col: 8
     width: 8
@@ -1698,7 +1698,7 @@
       First Time Visitor: ga_sessions.first_time_visitor
       Country: geoNetwork.country
       Page: first_page.pageTitle
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 12
     col: 0
     width: 8
@@ -1847,7 +1847,7 @@
       First Time Visitor: ga_sessions.first_time_visitor
       Country: geoNetwork.country
       Page: first_page.pageTitle
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 12
     col: 16
     width: 8
@@ -2030,7 +2030,7 @@
       First Time Visitor: ga_sessions.first_time_visitor
       Country: geoNetwork.country
       Page: first_page.pageTitle
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 2
     col: 0
     width: 24
@@ -2115,7 +2115,7 @@
       First Time Visitor: ga_sessions.first_time_visitor
       Country: geoNetwork.country
       Page: first_page.pageTitle
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 25
     col: 12
     width: 12
@@ -2237,7 +2237,7 @@
       First Time Visitor: ga_sessions.first_time_visitor
       Country: geoNetwork.country
       Page: first_page.pageTitle
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 40
     col: 0
     width: 12
@@ -2329,7 +2329,7 @@
       First Time Visitor: ga_sessions.first_time_visitor
       Country: geoNetwork.country
       Page: first_page.pageTitle
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 25
     col: 0
     width: 12
@@ -2471,7 +2471,7 @@
       First Time Visitor: ga_sessions.first_time_visitor
       Country: geoNetwork.country
       Page: first_page.pageTitle
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 40
     col: 12
     width: 12

@@ -248,7 +248,7 @@
       Campaign: trafficSource.campaign
       First Time Visitor: ga_sessions.first_time_visitor
       Country: geoNetwork.country
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 0
     col: 0
     width: 4
@@ -479,7 +479,7 @@
       Campaign: trafficSource.campaign
       First Time Visitor: ga_sessions.first_time_visitor
       Country: geoNetwork.country
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 0
     col: 11
     width: 3
@@ -721,7 +721,7 @@
       Campaign: trafficSource.campaign
       First Time Visitor: ga_sessions.first_time_visitor
       Country: geoNetwork.country
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 0
     col: 7
     width: 4
@@ -952,7 +952,7 @@
       Campaign: trafficSource.campaign
       First Time Visitor: ga_sessions.first_time_visitor
       Country: geoNetwork.country
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 0
     col: 4
     width: 3
@@ -1183,7 +1183,7 @@
       Campaign: trafficSource.campaign
       First Time Visitor: ga_sessions.first_time_visitor
       Country: geoNetwork.country
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 0
     col: 14
     width: 3
@@ -1425,7 +1425,7 @@
       Campaign: trafficSource.campaign
       First Time Visitor: ga_sessions.first_time_visitor
       Country: geoNetwork.country
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 0
     col: 20
     width: 4
@@ -1656,7 +1656,7 @@
       Campaign: trafficSource.campaign
       First Time Visitor: ga_sessions.first_time_visitor
       Country: geoNetwork.country
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 0
     col: 17
     width: 3
@@ -1806,7 +1806,7 @@
       Campaign: trafficSource.campaign
       First Time Visitor: ga_sessions.first_time_visitor
       Country: geoNetwork.country
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 2
     col: 0
     width: 24
@@ -1936,7 +1936,7 @@
       Campaign: trafficSource.campaign
       First Time Visitor: ga_sessions.first_time_visitor
       Country: geoNetwork.country
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 11
     col: 8
     width: 8
@@ -2067,7 +2067,7 @@
       Campaign: trafficSource.campaign
       First Time Visitor: ga_sessions.first_time_visitor
       Country: geoNetwork.country
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 11
     col: 0
     width: 8
@@ -2120,7 +2120,7 @@
       Campaign: trafficSource.campaign
       First Time Visitor: ga_sessions.first_time_visitor
       Country: geoNetwork.country
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 24
     col: 12
     width: 12
@@ -2261,7 +2261,7 @@
       Campaign: trafficSource.campaign
       First Time Visitor: ga_sessions.first_time_visitor
       Country: geoNetwork.country
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 11
     col: 16
     width: 8
@@ -2352,7 +2352,7 @@
       Campaign: trafficSource.campaign
       First Time Visitor: ga_sessions.first_time_visitor
       Country: geoNetwork.country
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 24
     col: 0
     width: 12
@@ -2480,7 +2480,7 @@
       Campaign: trafficSource.campaign
       First Time Visitor: ga_sessions.first_time_visitor
       Country: geoNetwork.country
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 38
     col: 0
     width: 19
@@ -2599,7 +2599,7 @@
       Campaign: trafficSource.campaign
       First Time Visitor: ga_sessions.first_time_visitor
       Country: geoNetwork.country
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 38
     col: 19
     width: 5
@@ -2715,7 +2715,7 @@
       Campaign: trafficSource.campaign
       First Time Visitor: ga_sessions.first_time_visitor
       Country: geoNetwork.country
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 45
     col: 12
     width: 12
@@ -2855,7 +2855,7 @@
       Campaign: trafficSource.campaign
       First Time Visitor: ga_sessions.first_time_visitor
       Country: geoNetwork.country
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 45
     col: 0
     width: 12

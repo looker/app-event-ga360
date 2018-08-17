@@ -306,7 +306,7 @@
       Period: ga_sessions.period
       Campaign: trafficSource.campaign
       First TIme Visitor: ga_sessions.first_time_visitor
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 0
     col: 0
     width: 5
@@ -530,7 +530,7 @@
       Period: ga_sessions.period
       Campaign: trafficSource.campaign
       First TIme Visitor: ga_sessions.first_time_visitor
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 0
     col: 5
     width: 5
@@ -761,7 +761,7 @@
       Period: ga_sessions.period
       Campaign: trafficSource.campaign
       First TIme Visitor: ga_sessions.first_time_visitor
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 0
     col: 19
     width: 5
@@ -889,7 +889,7 @@
       Period: ga_sessions.period
       Campaign: trafficSource.campaign
       First TIme Visitor: ga_sessions.first_time_visitor
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 3
     col: 0
     width: 24
@@ -1112,7 +1112,7 @@
       Period: ga_sessions.period
       Campaign: trafficSource.campaign
       First TIme Visitor: ga_sessions.first_time_visitor
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 0
     col: 14
     width: 5
@@ -1347,7 +1347,7 @@
     - totals.pageviews_total
     - page_views
     listen:
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 0
     col: 10
     width: 4
@@ -1470,7 +1470,7 @@
       Period: ga_sessions.period
       Campaign: trafficSource.campaign
       First TIme Visitor: ga_sessions.first_time_visitor
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 13
     col: 0
     width: 6
@@ -1593,7 +1593,7 @@
       Period: ga_sessions.period
       Campaign: trafficSource.campaign
       First TIme Visitor: ga_sessions.first_time_visitor
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 13
     col: 6
     width: 6
@@ -1725,7 +1725,7 @@
       Period: ga_sessions.period
       Campaign: trafficSource.campaign
       First TIme Visitor: ga_sessions.first_time_visitor
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 13
     col: 18
     width: 6
@@ -1848,7 +1848,7 @@
       Period: ga_sessions.period
       Campaign: trafficSource.campaign
       First TIme Visitor: ga_sessions.first_time_visitor
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 13
     col: 12
     width: 6
@@ -1935,7 +1935,7 @@
       Period: ga_sessions.period
       Campaign: trafficSource.campaign
       First TIme Visitor: ga_sessions.first_time_visitor
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 34
     col: 12
     width: 12
@@ -2041,7 +2041,7 @@
       Period: ga_sessions.period
       Campaign: trafficSource.campaign
       First TIme Visitor: ga_sessions.first_time_visitor
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 44
     col: 0
     width: 24
@@ -2145,7 +2145,7 @@
       Period: ga_sessions.period
       Campaign: trafficSource.campaign
       First TIme Visitor: ga_sessions.first_time_visitor
-      Host: hits_page.hostName
+      Host: ga_sessions.has_host
     row: 34
     col: 0
     width: 12
