@@ -119,6 +119,7 @@ view: cohort {
       {% elsif measure_picker._parameter_value == "'Returning Users'" %}${returning_users}
       {% endif %} ;;
     value_format_name: decimal_large
+    label_from_parameter: measure_picker
   }
 
   dimension: _date {
