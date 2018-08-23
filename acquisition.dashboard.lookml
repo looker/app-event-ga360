@@ -1917,8 +1917,8 @@
       Host: ga_sessions.has_host
       Page: ga_sessions.has_page
     row: 38
-    col: 19
-    width: 5
+    col: 12
+    width: 12
     height: 7
   - title: Engagement by Traffic Source
     name: Engagement by Traffic Source
@@ -2452,7 +2452,7 @@
       Page: ga_sessions.has_page
     row: 38
     col: 0
-    width: 19
+    width: 12
     height: 7
   - title: Top Search Keywords
     name: Top Search Keywords
@@ -2593,7 +2593,7 @@
       Page: ga_sessions.has_page
     row: 45
     col: 0
-    width: 9
+    width: 12
     height: 12
   - title: Time Series
     name: Time Series
@@ -2768,13 +2768,9 @@
     fields:
     - first_page.pageTitle
     - ga_sessions.session_count
-    - ga_sessions.first_time_visitors
-    - ga_sessions.returning_visitors
     - ga_sessions.percent_new_users
     - totals.bounce_rate
-    - totals.timeonsite_total
     - totals.timeonsite_average_per_session
-    - ga_sessions.goal_conversions
     - ga_sessions.goal_conversion_rate
     filters:
       ga_sessions.date_period_comparison_period: 'Yes'
@@ -2789,7 +2785,7 @@
     hide_row_totals: false
     table_theme: gray
     limit_displayed_rows: false
-    enable_conditional_formatting: true
+    enable_conditional_formatting: false
     conditional_formatting:
     - type: low to high
       value:
@@ -2946,8 +2942,8 @@
       Host: ga_sessions.has_host
       Page: ga_sessions.has_page
     row: 45
-    col: 9
-    width: 15
+    col: 12
+    width: 12
     height: 12
   filters:
   - name: Period
