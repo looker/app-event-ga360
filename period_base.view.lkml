@@ -272,10 +272,16 @@ view: period_fact_period_base {
   }
   dimension: date_last_period {
     group_label: "Event"
-    label: "Prior Period"
+    label: "Prior Period XYZ"
     type: date
     convert_tz: no
     sql: DATE_ADD(${date_period}, INTERVAL -{% if period_fact.period._parameter_value == "'7 day'" %}7{% elsif period_fact.period._parameter_value == "'28 day'" %}28{% elsif period_fact.period._parameter_value == "'91 day'" %}91{% elsif period_fact.period._parameter_value == "'364 day'" %}364{% else %}1{% endif %} {% if period_fact.period._parameter_value contains "day" %}day{% elsif period_fact.period._parameter_value contains "week" %}week{% elsif period_fact.period._parameter_value contains "month" %}month{% elsif period_fact.period._parameter_value contains "quarter" %}quarter{% elsif period_fact.period._parameter_value contains "year" %}year{% endif %}) ;;
     allow_fill: no
+  }
+
+  measure: min_date_period {
+#     hidden: yes
+    type: min
+    sql: ${date_period} ;;
   }
 }
