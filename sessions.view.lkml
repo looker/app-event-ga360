@@ -4,8 +4,9 @@ include: "event_base.view"
 include: "page_base.view"
 include: "user_session_facts.view"
 
-explore: ga_sessions {
+explore: ga_sessions_template {
   extends: [ga_sessions_block]
+  extension: required
 
   join: user_session_facts {
     view_label: "User Session Fact"
@@ -14,8 +15,9 @@ explore: ga_sessions {
   }
 }
 
-view: ga_sessions {
+view: ga_sessions_template {
   extends: [ga_sessions_adapter, date_base, period_base, event_base, page_base]
+  extension: required
 
   dimension: _date {
     sql: ${partition_date} ;;
