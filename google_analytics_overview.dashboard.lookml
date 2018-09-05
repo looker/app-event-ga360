@@ -1197,7 +1197,7 @@
     - ga_sessions.returning_visitors
     - totals.transaction_conversion_rate
     - totals.bounce_rate
-    - ga_sessions.goal_conversion_rate
+    - ga_sessions.selected_goal_conversion_rate
     filters:
       ga_sessions.date_period_comparison_period: 'Yes'
     sorts:
@@ -1255,8 +1255,8 @@
       _type_hint: number
     - table_calculation: goal_conv_rate
       label: Goal Conv Rate
-      expression: "(${ga_sessions.goal_conversion_rate} - offset(${ga_sessions.goal_conversion_rate},\
-        \ 1)) / offset(${ga_sessions.goal_conversion_rate}, 1)"
+      expression: "(${ga_sessions.selected_goal_conversion_rate} - offset(${ga_sessions.selected_goal_conversion_rate},\
+        \ 1)) / offset(${ga_sessions.selected_goal_conversion_rate}, 1)"
       value_format:
       value_format_name: percent_2
       _kind_hint: measure
