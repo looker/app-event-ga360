@@ -949,7 +949,7 @@
     - ga_sessions.returning_visitors
     - totals.transaction_conversion_rate
     - totals.bounce_rate
-    - ga_sessions.goal_conversion_rate
+    - ga_sessions.selected_goal_conversion_rate
     filters:
       ga_sessions.date_period_comparison_period: 'Yes'
     sorts:
@@ -1005,10 +1005,10 @@
       value_format_name: percent_2
       _kind_hint: measure
       _type_hint: number
-    - table_calculation: goal_conversion_rate
+    - table_calculation: selected_goal_conversion_rate
       label: Goal Conversion Rate
-      expression: "(${ga_sessions.goal_conversion_rate} - offset(${ga_sessions.goal_conversion_rate},1))\
-        \ / offset(${ga_sessions.goal_conversion_rate},1)"
+      expression: "(${ga_sessions.selected_goal_conversion_rate} - offset(${ga_sessions.selected_goal_conversion_rate},1))\
+        \ / offset(${ga_sessions.selected_goal_conversion_rate},1)"
       value_format:
       value_format_name: percent_2
       _kind_hint: measure
@@ -1929,7 +1929,7 @@
     - ga_sessions.channelGrouping
     - totals.timeonsite_average_per_session
     - ga_sessions.percent_new_users
-    - ga_sessions.goal_conversion_rate
+    - ga_sessions.selected_goal_conversion_rate
     - ga_sessions.unique_visitors
     filters:
       ga_sessions.date_period_comparison_period: 'Yes'
@@ -1958,7 +1958,7 @@
     show_view_names: false
     point_style: circle_outline
     series_colors:
-      ga_sessions.goal_conversion_rate: "#BFBFBF"
+      ga_sessions.selected_goal_conversion_rate: "#BFBFBF"
       ga_sessions.unique_visitors: "#58A9F5"
     series_labels:
       totals.transaction_conversion_rate: Conversion Rate
@@ -1968,12 +1968,12 @@
       totals.timeonsite_total: line
       new_users: line
       ga_sessions.percent_new_users: line
-      ga_sessions.goal_conversion_rate: line
+      ga_sessions.selected_goal_conversion_rate: line
       totals.timeonsite_average_per_session: line
     limit_displayed_rows: false
     hidden_series:
     - ga_sessions.percent_new_users
-    - ga_sessions.goal_conversion_rate
+    - ga_sessions.selected_goal_conversion_rate
     y_axes:
     - label:
       orientation: bottom
@@ -2001,9 +2001,9 @@
     - label: ''
       orientation: bottom
       series:
-      - id: ga_sessions.goal_conversion_rate
+      - id: ga_sessions.selected_goal_conversion_rate
         name: Goal Conversion Rate
-        axisId: ga_sessions.goal_conversion_rate
+        axisId: ga_sessions.selected_goal_conversion_rate
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -2061,7 +2061,7 @@
     - trafficSource.medium
     - totals.timeonsite_average_per_session
     - ga_sessions.percent_new_users
-    - ga_sessions.goal_conversion_rate
+    - ga_sessions.selected_goal_conversion_rate
     - ga_sessions.unique_visitors
     filters:
       ga_sessions.date_period_comparison_period: 'Yes'
@@ -2090,7 +2090,7 @@
     point_style: circle_outline
     series_colors:
       ga_sessions.unique_visitors: "#58A9F5"
-      ga_sessions.goal_conversion_rate: "#BFBFBF"
+      ga_sessions.selected_goal_conversion_rate: "#BFBFBF"
     series_labels:
       ga_sessions.unique_visitors: Users
       totals.transaction_conversion_rate: Conversion Rate
@@ -2099,12 +2099,12 @@
       totals.transaction_conversion_rate: line
       new_users: line
       ga_sessions.percent_new_users: line
-      ga_sessions.goal_conversion_rate: line
+      ga_sessions.selected_goal_conversion_rate: line
       totals.timeonsite_average_per_session: line
     limit_displayed_rows: false
     hidden_series:
     - ga_sessions.percent_new_users
-    - ga_sessions.goal_conversion_rate
+    - ga_sessions.selected_goal_conversion_rate
     y_axes:
     - label:
       orientation: top
@@ -2132,9 +2132,9 @@
     - label: ''
       orientation: bottom
       series:
-      - id: ga_sessions.goal_conversion_rate
+      - id: ga_sessions.selected_goal_conversion_rate
         name: Goal Conversion Rate
-        axisId: ga_sessions.goal_conversion_rate
+        axisId: ga_sessions.selected_goal_conversion_rate
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -2192,7 +2192,7 @@
     - trafficSource.referralPath
     - totals.timeonsite_average_per_session
     - ga_sessions.percent_new_users
-    - ga_sessions.goal_conversion_rate
+    - ga_sessions.selected_goal_conversion_rate
     - ga_sessions.unique_visitors
     filters:
       trafficSource.referralPath: "-NULL"
@@ -2230,7 +2230,7 @@
     point_style: circle_outline
     series_colors:
       ga_sessions.unique_visitors: "#58A9F5"
-      ga_sessions.goal_conversion_rate: "#BFBFBF"
+      ga_sessions.selected_goal_conversion_rate: "#BFBFBF"
     series_labels:
       ga_sessions.unique_visitors: Unique Users
       totals.transaction_conversion_rate: Conversion Rate
@@ -2239,12 +2239,12 @@
       totals.transaction_conversion_rate: line
       new_users: line
       ga_sessions.percent_new_users: line
-      ga_sessions.goal_conversion_rate: line
+      ga_sessions.selected_goal_conversion_rate: line
       totals.timeonsite_average_per_session: line
     limit_displayed_rows: false
     hidden_series:
     - ga_sessions.percent_new_users
-    - ga_sessions.goal_conversion_rate
+    - ga_sessions.selected_goal_conversion_rate
     y_axes:
     - label:
       orientation: bottom
@@ -2273,9 +2273,9 @@
     - label: ''
       orientation: bottom
       series:
-      - id: ga_sessions.goal_conversion_rate
+      - id: ga_sessions.selected_goal_conversion_rate
         name: Goal Conversion Rate
-        axisId: ga_sessions.goal_conversion_rate
+        axisId: ga_sessions.selected_goal_conversion_rate
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -2334,7 +2334,7 @@
     - hits_social.socialNetwork
     - ga_sessions.percent_new_users
     - totals.timeonsite_average_per_session
-    - ga_sessions.goal_conversion_rate
+    - ga_sessions.selected_goal_conversion_rate
     - ga_sessions.unique_visitors
     filters:
       ga_sessions.date_period_comparison_period: 'Yes'
@@ -2362,20 +2362,20 @@
     point_style: circle_outline
     series_colors:
       ga_sessions.unique_visitors: "#58A9F5"
-      ga_sessions.goal_conversion_rate: "#BFBFBF"
+      ga_sessions.selected_goal_conversion_rate: "#BFBFBF"
       totals.timeonsite_average_per_session: "#F6659A"
     series_labels:
       totals.transaction_conversion_rate: Conversion Rate
       ga_sessions.unique_visitors: Users
     series_types:
-      ga_sessions.goal_conversion_rate: line
+      ga_sessions.selected_goal_conversion_rate: line
       ga_sessions.percent_new_users: line
       totals.timeonsite_total: line
       totals.timeonsite_average_per_session: line
     limit_displayed_rows: false
     hidden_series:
     - ga_sessions.percent_new_users
-    - ga_sessions.goal_conversion_rate
+    - ga_sessions.selected_goal_conversion_rate
     y_axes:
     - label:
       orientation: left
@@ -2403,9 +2403,9 @@
     - label: ''
       orientation: left
       series:
-      - id: ga_sessions.goal_conversion_rate
+      - id: ga_sessions.selected_goal_conversion_rate
         name: Goal Conversion Rate
-        axisId: ga_sessions.goal_conversion_rate
+        axisId: ga_sessions.selected_goal_conversion_rate
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -2463,7 +2463,7 @@
     - trafficSource.keyword
     - totals.timeonsite_average_per_session
     - ga_sessions.percent_new_users
-    - ga_sessions.goal_conversion_rate
+    - ga_sessions.selected_goal_conversion_rate
     - ga_sessions.unique_visitors
     filters:
       ga_sessions.date_period_comparison_period: 'Yes'
@@ -2492,7 +2492,7 @@
     point_style: circle_outline
     series_colors:
       ga_sessions.unique_visitors: "#58A9F5"
-      ga_sessions.goal_conversion_rate: "#BFBFBF"
+      ga_sessions.selected_goal_conversion_rate: "#BFBFBF"
       totals.timeonsite_average_per_session: "#F6659A"
     series_labels:
       ga_sessions.unique_visitors: Users
@@ -2502,13 +2502,13 @@
       totals.timeonsite_total: line
       new_users: line
       ga_sessions.percent_new_users: line
-      ga_sessions.goal_conversion_rate: line
+      ga_sessions.selected_goal_conversion_rate: line
       totals.timeonsite_average_per_session: line
     limit_displayed_rows: false
     hidden_series:
     - totals.timeonsite_total
     - ga_sessions.percent_new_users
-    - ga_sessions.goal_conversion_rate
+    - ga_sessions.selected_goal_conversion_rate
     y_axes:
     - label:
       orientation: bottom
@@ -2536,9 +2536,9 @@
     - label: ''
       orientation: bottom
       series:
-      - id: ga_sessions.goal_conversion_rate
+      - id: ga_sessions.selected_goal_conversion_rate
         name: Goal Conversion Rate
-        axisId: ga_sessions.goal_conversion_rate
+        axisId: ga_sessions.selected_goal_conversion_rate
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -2607,7 +2607,7 @@
     - totals.bounce_rate
     - totals.timeonsite_average_per_session
     - ga_sessions.percent_new_users
-    - ga_sessions.goal_conversion_rate
+    - ga_sessions.selected_goal_conversion_rate
     fill_fields:
     - ga_sessions.visitStart_date
     filters:
@@ -2705,9 +2705,9 @@
     - label: ''
       orientation: left
       series:
-      - id: ga_sessions.goal_conversion_rate
+      - id: ga_sessions.selected_goal_conversion_rate
         name: Goal Conversion Rate
-        axisId: ga_sessions.goal_conversion_rate
+        axisId: ga_sessions.selected_goal_conversion_rate
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -2771,7 +2771,7 @@
     - ga_sessions.percent_new_users
     - totals.bounce_rate
     - totals.timeonsite_average_per_session
-    - ga_sessions.goal_conversion_rate
+    - ga_sessions.selected_goal_conversion_rate
     filters:
       ga_sessions.date_period_comparison_period: 'Yes'
     sorts:
@@ -2842,7 +2842,7 @@
       italic: false
       strikethrough: false
       fields:
-      - ga_sessions.goal_conversion_rate
+      - ga_sessions.selected_goal_conversion_rate
     conditional_formatting_include_totals: false
     conditional_formatting_include_nulls: false
     stacking: ''
