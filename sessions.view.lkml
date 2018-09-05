@@ -21,6 +21,6 @@ view: ga_sessions_template {
 
   dimension: _date {
     hidden: yes
-    sql: ${partition_date} ;;
+    sql: ${visitStart_date};;
   }
 }
