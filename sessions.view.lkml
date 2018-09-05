@@ -20,6 +20,7 @@ view: ga_sessions_template {
   extension: required
 
   dimension: _date {
-    sql: ${partition_date} ;;
+    hidden: yes
+    sql: ${visitStart_date};;
   }
 }
