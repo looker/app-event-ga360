@@ -235,7 +235,7 @@
       First Time User: ga_sessions.first_time_visitor
       Goal Selection: ga_sessions.goal_selection
       Host: ga_sessions.has_host
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
     row: 0
     col: 0
     width: 4
@@ -419,7 +419,7 @@
       First Time User: ga_sessions.first_time_visitor
       Goal Selection: ga_sessions.goal_selection
       Host: ga_sessions.has_host
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
     row: 0
     col: 8
     width: 4
@@ -675,7 +675,7 @@
       First Time User: ga_sessions.first_time_visitor
       Goal Selection: ga_sessions.goal_selection
       Host: ga_sessions.has_host
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
     row: 0
     col: 4
     width: 4
@@ -859,7 +859,7 @@
       First Time User: ga_sessions.first_time_visitor
       Goal Selection: ga_sessions.goal_selection
       Host: ga_sessions.has_host
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
     row: 0
     col: 16
     width: 4
@@ -1043,7 +1043,7 @@
       First Time User: ga_sessions.first_time_visitor
       Goal Selection: ga_sessions.goal_selection
       Host: ga_sessions.has_host
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
     row: 0
     col: 12
     width: 4
@@ -1227,7 +1227,7 @@
       First Time User: ga_sessions.first_time_visitor
       Goal Selection: ga_sessions.goal_selection
       Host: ga_sessions.has_host
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
     row: 0
     col: 20
     width: 4
@@ -1388,7 +1388,7 @@
       First Time User: ga_sessions.first_time_visitor
       Goal Selection: ga_sessions.goal_selection
       Host: ga_sessions.has_host
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
     row: 22
     col: 0
     width: 16
@@ -1522,7 +1522,7 @@
       First Time User: ga_sessions.first_time_visitor
       Goal Selection: ga_sessions.goal_selection
       Host: ga_sessions.has_host
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
     row: 22
     col: 16
     width: 8
@@ -1679,7 +1679,7 @@
       First Time User: ga_sessions.first_time_visitor
       Goal Selection: ga_sessions.goal_selection
       Host: ga_sessions.has_host
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
     row: 3
     col: 0
     width: 24
@@ -1837,7 +1837,7 @@
       First Time User: ga_sessions.first_time_visitor
       Goal Selection: ga_sessions.goal_selection
       Host: ga_sessions.has_host
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
     row: 12
     col: 0
     width: 8
@@ -1986,7 +1986,7 @@
       First Time User: ga_sessions.first_time_visitor
       Goal Selection: ga_sessions.goal_selection
       Host: ga_sessions.has_host
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
     row: 12
     col: 8
     width: 8
@@ -2135,7 +2135,7 @@
       First Time User: ga_sessions.first_time_visitor
       Goal Selection: ga_sessions.goal_selection
       Host: ga_sessions.has_host
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
     row: 12
     col: 16
     width: 8
@@ -2321,7 +2321,7 @@
       First Time User: ga_sessions.first_time_visitor
       Goal Selection: ga_sessions.goal_selection
       Host: ga_sessions.has_host
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
     row: 29
     col: 0
     width: 11
@@ -2507,7 +2507,7 @@
       First Time User: ga_sessions.first_time_visitor
       Goal Selection: ga_sessions.goal_selection
       Host: ga_sessions.has_host
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
     row: 29
     col: 11
     width: 13
@@ -2574,4 +2574,4 @@
     model: event_analytics
     explore: ga_sessions
     listens_to_filters: []
-    field: ga_sessions.search_keyword
+    field: trafficSource.keyword

@@ -311,7 +311,7 @@
       Campaign: trafficSource.campaign
       First TIme Visitor: ga_sessions.first_time_visitor
       Host: ga_sessions.has_host
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
       Goal Selection: ga_sessions.goal_selection
     row: 0
     col: 0
@@ -537,7 +537,7 @@
       Campaign: trafficSource.campaign
       First TIme Visitor: ga_sessions.first_time_visitor
       Host: ga_sessions.has_host
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
       Goal Selection: ga_sessions.goal_selection
     row: 0
     col: 5
@@ -770,7 +770,7 @@
       Campaign: trafficSource.campaign
       First TIme Visitor: ga_sessions.first_time_visitor
       Host: ga_sessions.has_host
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
       Goal Selection: ga_sessions.goal_selection
     row: 0
     col: 19
@@ -995,7 +995,7 @@
       Campaign: trafficSource.campaign
       First TIme Visitor: ga_sessions.first_time_visitor
       Host: ga_sessions.has_host
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
       Goal Selection: ga_sessions.goal_selection
     row: 0
     col: 14
@@ -1232,7 +1232,7 @@
     - page_views
     listen:
       Host: ga_sessions.has_host
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
       Goal Selection: ga_sessions.goal_selection
     row: 0
     col: 10
@@ -1378,7 +1378,7 @@
       Campaign: trafficSource.campaign
       First TIme Visitor: ga_sessions.first_time_visitor
       Host: ga_sessions.has_host
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
       Goal Selection: ga_sessions.goal_selection
     row: 3
     col: 0
@@ -1515,7 +1515,7 @@
       Campaign: trafficSource.campaign
       First TIme Visitor: ga_sessions.first_time_visitor
       Host: ga_sessions.has_host
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
       Goal Selection: ga_sessions.goal_selection
     row: 13
     col: 0
@@ -1652,7 +1652,7 @@
       Campaign: trafficSource.campaign
       First TIme Visitor: ga_sessions.first_time_visitor
       Host: ga_sessions.has_host
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
       Goal Selection: ga_sessions.goal_selection
     row: 13
     col: 6
@@ -1798,7 +1798,7 @@
       Campaign: trafficSource.campaign
       First TIme Visitor: ga_sessions.first_time_visitor
       Host: ga_sessions.has_host
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
       Goal Selection: ga_sessions.goal_selection
     row: 13
     col: 18
@@ -1908,7 +1908,7 @@
       Campaign: trafficSource.campaign
       First TIme Visitor: ga_sessions.first_time_visitor
       Host: ga_sessions.has_host
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
       Goal Selection: ga_sessions.goal_selection
     row: 34
     col: 0
@@ -2045,7 +2045,7 @@
       Campaign: trafficSource.campaign
       First TIme Visitor: ga_sessions.first_time_visitor
       Host: ga_sessions.has_host
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
       Goal Selection: ga_sessions.goal_selection
     row: 13
     col: 12
@@ -2165,7 +2165,7 @@
       Campaign: trafficSource.campaign
       First TIme Visitor: ga_sessions.first_time_visitor
       Host: ga_sessions.has_host
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
       Goal Selection: ga_sessions.goal_selection
     row: 44
     col: 0
@@ -2254,7 +2254,7 @@
       Campaign: trafficSource.campaign
       First TIme Visitor: ga_sessions.first_time_visitor
       Host: ga_sessions.has_host
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
       Goal Selection: ga_sessions.goal_selection
     row: 34
     col: 12
@@ -2312,7 +2312,7 @@
     model: event_analytics
     explore: ga_sessions
     listens_to_filters: []
-    field: ga_sessions.search_keyword
+    field: trafficSource.keyword
   - name: Goal Selection
     title: Goal Selection
     type: field_filter
