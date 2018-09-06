@@ -251,7 +251,7 @@
       Host: ga_sessions.has_host
       Page: ga_sessions.has_page
       Goal Selection: ga_sessions.goal_selection
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
     row: 0
     col: 0
     width: 4
@@ -485,7 +485,7 @@
       Host: ga_sessions.has_host
       Page: ga_sessions.has_page
       Goal Selection: ga_sessions.goal_selection
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
     row: 0
     col: 4
     width: 3
@@ -719,7 +719,7 @@
       Host: ga_sessions.has_host
       Page: ga_sessions.has_page
       Goal Selection: ga_sessions.goal_selection
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
     row: 0
     col: 11
     width: 3
@@ -964,7 +964,7 @@
       Host: ga_sessions.has_host
       Page: ga_sessions.has_page
       Goal Selection: ga_sessions.goal_selection
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
     row: 0
     col: 7
     width: 4
@@ -1141,7 +1141,7 @@
       Host: ga_sessions.has_host
       Page: ga_sessions.has_page
       Goal Selection: ga_sessions.goal_selection
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
     row: 2
     col: 0
     width: 24
@@ -1386,7 +1386,7 @@
       Host: ga_sessions.has_host
       Page: ga_sessions.has_page
       Goal Selection: ga_sessions.goal_selection
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
     row: 0
     col: 20
     width: 4
@@ -1620,7 +1620,7 @@
       Host: ga_sessions.has_host
       Page: ga_sessions.has_page
       Goal Selection: ga_sessions.goal_selection
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
     row: 0
     col: 17
     width: 3
@@ -1770,7 +1770,7 @@
       Host: ga_sessions.has_host
       Page: ga_sessions.has_page
       Goal Selection: ga_sessions.goal_selection
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
     row: 11
     col: 0
     width: 8
@@ -1919,7 +1919,7 @@
       Host: ga_sessions.has_host
       Page: ga_sessions.has_page
       Goal Selection: ga_sessions.goal_selection
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
     row: 11
     col: 8
     width: 8
@@ -2153,7 +2153,7 @@
       Host: ga_sessions.has_host
       Page: ga_sessions.has_page
       Goal Selection: ga_sessions.goal_selection
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
     row: 0
     col: 14
     width: 3
@@ -2313,7 +2313,7 @@
       Host: ga_sessions.has_host
       Page: ga_sessions.has_page
       Goal Selection: ga_sessions.goal_selection
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
     row: 11
     col: 16
     width: 8
@@ -2407,7 +2407,7 @@
       Host: ga_sessions.has_host
       Page: ga_sessions.has_page
       Goal Selection: ga_sessions.goal_selection
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
     row: 24
     col: 0
     width: 12
@@ -2463,7 +2463,7 @@
       Host: ga_sessions.has_host
       Page: ga_sessions.has_page
       Goal Selection: ga_sessions.goal_selection
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
     row: 24
     col: 12
     width: 12
@@ -2601,7 +2601,7 @@
       Host: ga_sessions.has_host
       Page: ga_sessions.has_page
       Goal Selection: ga_sessions.goal_selection
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
     row: 38
     col: 12
     width: 12
@@ -2748,7 +2748,7 @@
       Host: ga_sessions.has_host
       Page: ga_sessions.has_page
       Goal Selection: ga_sessions.goal_selection
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
     row: 38
     col: 0
     width: 12
@@ -2907,7 +2907,7 @@
       Host: ga_sessions.has_host
       Page: ga_sessions.has_page
       Goal Selection: ga_sessions.goal_selection
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
     row: 45
     col: 0
     width: 12
@@ -3110,7 +3110,7 @@
       Host: ga_sessions.has_host
       Page: ga_sessions.has_page
       Goal Selection: ga_sessions.goal_selection
-      Search Keyword: ga_sessions.search_keyword
+      Search Keyword: trafficSource.keyword
     row: 45
     col: 12
     width: 12
@@ -3195,4 +3195,4 @@
     model: event_analytics
     explore: ga_sessions
     listens_to_filters: []
-    field: ga_sessions.search_keyword
+    field: trafficSource.keyword
