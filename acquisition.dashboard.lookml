@@ -128,7 +128,7 @@
         name: Unique Visitors
         axisId: ga_sessions.unique_visitors
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 360
+        __LINE_NUM: 127
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -136,7 +136,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 357
+      __LINE_NUM: 124
     - label:
       orientation: left
       series:
@@ -144,7 +144,7 @@
         name: Returning Visitors
         axisId: ga_sessions.returning_visitors
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 376
+        __LINE_NUM: 143
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -152,7 +152,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 373
+      __LINE_NUM: 140
     - label:
       orientation: left
       series:
@@ -160,7 +160,7 @@
         name: Session Count
         axisId: ga_sessions.session_count
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 392
+        __LINE_NUM: 159
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -168,7 +168,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 389
+      __LINE_NUM: 156
     - label:
       orientation: left
       series:
@@ -176,7 +176,7 @@
         name: Time On Site Average Per Session
         axisId: totals.timeonsite_average_per_session
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 408
+        __LINE_NUM: 175
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -184,7 +184,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 405
+      __LINE_NUM: 172
     - label: ''
       orientation: left
       series:
@@ -192,14 +192,14 @@
         name: Percent New Visitors
         axisId: percent_new_visitors
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 424
+        __LINE_NUM: 191
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 421
+      __LINE_NUM: 188
     - label:
       orientation: right
       series:
@@ -207,7 +207,7 @@
         name: Transaction Conversion Rate
         axisId: totals.transaction_conversion_rate
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 439
+        __LINE_NUM: 206
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -215,7 +215,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 436
+      __LINE_NUM: 203
     colors:
     - "#58A9F5"
     - "#B9E49A"
@@ -362,7 +362,7 @@
         name: Unique Visitors
         axisId: ga_sessions.unique_visitors
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 127
+        __LINE_NUM: 361
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -370,7 +370,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 124
+      __LINE_NUM: 358
     - label:
       orientation: left
       series:
@@ -378,7 +378,7 @@
         name: Returning Visitors
         axisId: ga_sessions.returning_visitors
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 143
+        __LINE_NUM: 377
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -386,7 +386,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 140
+      __LINE_NUM: 374
     - label:
       orientation: left
       series:
@@ -394,7 +394,7 @@
         name: Session Count
         axisId: ga_sessions.session_count
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 159
+        __LINE_NUM: 393
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -402,7 +402,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 156
+      __LINE_NUM: 390
     - label:
       orientation: left
       series:
@@ -410,7 +410,7 @@
         name: Time On Site Average Per Session
         axisId: totals.timeonsite_average_per_session
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 175
+        __LINE_NUM: 409
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -418,7 +418,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 172
+      __LINE_NUM: 406
     - label: ''
       orientation: left
       series:
@@ -426,14 +426,14 @@
         name: Percent New Visitors
         axisId: percent_new_visitors
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 191
+        __LINE_NUM: 425
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 188
+      __LINE_NUM: 422
     - label:
       orientation: right
       series:
@@ -441,7 +441,7 @@
         name: Transaction Conversion Rate
         axisId: totals.transaction_conversion_rate
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 206
+        __LINE_NUM: 440
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -449,7 +449,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 203
+      __LINE_NUM: 437
     colors:
     - "#58A9F5"
     - "#B9E49A"
@@ -596,7 +596,7 @@
         name: Unique Visitors
         axisId: ga_sessions.unique_visitors
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 593
+        __LINE_NUM: 595
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -604,7 +604,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 590
+      __LINE_NUM: 592
     - label:
       orientation: left
       series:
@@ -612,7 +612,7 @@
         name: Returning Visitors
         axisId: ga_sessions.returning_visitors
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 609
+        __LINE_NUM: 611
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -620,7 +620,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 606
+      __LINE_NUM: 608
     - label:
       orientation: left
       series:
@@ -628,7 +628,7 @@
         name: Session Count
         axisId: ga_sessions.session_count
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 625
+        __LINE_NUM: 627
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -636,7 +636,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 622
+      __LINE_NUM: 624
     - label:
       orientation: left
       series:
@@ -644,7 +644,7 @@
         name: Time On Site Average Per Session
         axisId: totals.timeonsite_average_per_session
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 641
+        __LINE_NUM: 643
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -652,7 +652,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 638
+      __LINE_NUM: 640
     - label: ''
       orientation: left
       series:
@@ -660,14 +660,14 @@
         name: Percent New Visitors
         axisId: percent_new_visitors
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 657
+        __LINE_NUM: 659
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 654
+      __LINE_NUM: 656
     - label:
       orientation: right
       series:
@@ -675,7 +675,7 @@
         name: Transaction Conversion Rate
         axisId: totals.transaction_conversion_rate
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 672
+        __LINE_NUM: 674
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -683,7 +683,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 669
+      __LINE_NUM: 671
     colors:
     - "#58A9F5"
     - "#B9E49A"
@@ -839,7 +839,7 @@
         name: Unique Visitors
         axisId: ga_sessions.unique_visitors
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 1068
+        __LINE_NUM: 838
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -847,7 +847,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 1065
+      __LINE_NUM: 835
     - label:
       orientation: left
       series:
@@ -855,7 +855,7 @@
         name: Returning Users
         axisId: ga_sessions.returning_visitors
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 1084
+        __LINE_NUM: 854
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -863,7 +863,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 1081
+      __LINE_NUM: 851
     - label:
       orientation: left
       series:
@@ -871,7 +871,7 @@
         name: Session Count
         axisId: ga_sessions.session_count
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 1100
+        __LINE_NUM: 870
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -879,7 +879,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 1097
+      __LINE_NUM: 867
     - label:
       orientation: left
       series:
@@ -887,7 +887,7 @@
         name: Time On Site Average Per Session
         axisId: totals.timeonsite_average_per_session
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 1116
+        __LINE_NUM: 886
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -895,7 +895,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 1113
+      __LINE_NUM: 883
     - label: ''
       orientation: left
       series:
@@ -903,14 +903,14 @@
         name: Percent New Users
         axisId: percent_new_visitors
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 1132
+        __LINE_NUM: 902
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 1129
+      __LINE_NUM: 899
     - label:
       orientation: right
       series:
@@ -918,7 +918,7 @@
         name: Transaction Conversion Rate
         axisId: totals.transaction_conversion_rate
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 1147
+        __LINE_NUM: 917
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -926,7 +926,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 1144
+      __LINE_NUM: 914
     colors:
     - "#58A9F5"
     - "#B9E49A"
@@ -1025,7 +1025,7 @@
         name: Unique Users
         axisId: ga_sessions.unique_visitors
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 1730
+        __LINE_NUM: 1024
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -1033,7 +1033,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 1727
+      __LINE_NUM: 1021
     - label:
       orientation: left
       series:
@@ -1041,7 +1041,7 @@
         name: Returning Users
         axisId: ga_sessions.returning_visitors
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 1746
+        __LINE_NUM: 1040
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -1049,7 +1049,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 1743
+      __LINE_NUM: 1037
     - label:
       orientation: left
       series:
@@ -1057,7 +1057,7 @@
         name: Avg Session Duration
         axisId: totals.timeonsite_average_per_session
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 1762
+        __LINE_NUM: 1056
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -1065,7 +1065,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 1759
+      __LINE_NUM: 1053
     - label: ''
       orientation: left
       series:
@@ -1073,14 +1073,14 @@
         name: Bounce Rate
         axisId: totals.bounce_rate
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 1778
+        __LINE_NUM: 1072
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 1775
+      __LINE_NUM: 1069
     - label: ''
       orientation: left
       series:
@@ -1088,14 +1088,14 @@
         name: Percent New Users
         axisId: ga_sessions.percent_new_users
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 1793
+        __LINE_NUM: 1087
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 1790
+      __LINE_NUM: 1084
     - label: ''
       orientation: left
       series:
@@ -1103,14 +1103,14 @@
         name: Goal Conversion Rate
         axisId: ga_sessions.selected_goal_conversion_rate
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 1808
+        __LINE_NUM: 1102
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 1805
+      __LINE_NUM: 1099
     y_axis_combined: true
     show_y_axis_labels: true
     show_y_axis_ticks: true
@@ -1261,7 +1261,7 @@
         name: Unique Visitors
         axisId: ga_sessions.unique_visitors
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 1545
+        __LINE_NUM: 1260
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -1269,7 +1269,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 1542
+      __LINE_NUM: 1257
     - label:
       orientation: left
       series:
@@ -1277,7 +1277,7 @@
         name: Returning Visitors
         axisId: ga_sessions.returning_visitors
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 1561
+        __LINE_NUM: 1276
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -1285,7 +1285,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 1558
+      __LINE_NUM: 1273
     - label:
       orientation: left
       series:
@@ -1293,7 +1293,7 @@
         name: Session Count
         axisId: ga_sessions.session_count
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 1577
+        __LINE_NUM: 1292
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -1301,7 +1301,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 1574
+      __LINE_NUM: 1289
     - label:
       orientation: left
       series:
@@ -1309,7 +1309,7 @@
         name: Time On Site Average Per Session
         axisId: totals.timeonsite_average_per_session
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 1593
+        __LINE_NUM: 1308
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -1317,7 +1317,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 1590
+      __LINE_NUM: 1305
     - label: ''
       orientation: left
       series:
@@ -1325,14 +1325,14 @@
         name: Percent New Visitors
         axisId: percent_new_visitors
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 1609
+        __LINE_NUM: 1324
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 1606
+      __LINE_NUM: 1321
     - label:
       orientation: right
       series:
@@ -1340,7 +1340,7 @@
         name: Transaction Conversion Rate
         axisId: totals.transaction_conversion_rate
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 1624
+        __LINE_NUM: 1339
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -1348,7 +1348,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 1621
+      __LINE_NUM: 1336
     colors:
     - "#58A9F5"
     - "#B9E49A"
@@ -1497,7 +1497,7 @@
         name: Unique Visitors
         axisId: ga_sessions.unique_visitors
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 1303
+        __LINE_NUM: 1496
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -1505,7 +1505,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 1300
+      __LINE_NUM: 1493
     - label:
       orientation: left
       series:
@@ -1513,7 +1513,7 @@
         name: Returning Visitors
         axisId: ga_sessions.returning_visitors
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 1319
+        __LINE_NUM: 1512
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -1521,7 +1521,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 1316
+      __LINE_NUM: 1509
     - label:
       orientation: left
       series:
@@ -1529,7 +1529,7 @@
         name: Session Count
         axisId: ga_sessions.session_count
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 1335
+        __LINE_NUM: 1528
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -1537,7 +1537,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 1332
+      __LINE_NUM: 1525
     - label:
       orientation: left
       series:
@@ -1545,7 +1545,7 @@
         name: Time On Site Average Per Session
         axisId: totals.timeonsite_average_per_session
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 1351
+        __LINE_NUM: 1544
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -1553,7 +1553,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 1348
+      __LINE_NUM: 1541
     - label: ''
       orientation: left
       series:
@@ -1561,14 +1561,14 @@
         name: Percent New Visitors
         axisId: percent_new_visitors
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 1367
+        __LINE_NUM: 1560
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 1364
+      __LINE_NUM: 1557
     - label:
       orientation: right
       series:
@@ -1576,7 +1576,7 @@
         name: Transaction Conversion Rate
         axisId: totals.transaction_conversion_rate
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 1382
+        __LINE_NUM: 1575
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -1584,7 +1584,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 1379
+      __LINE_NUM: 1572
     colors:
     - "#58A9F5"
     - "#B9E49A"
@@ -1687,7 +1687,7 @@
         name: Users
         axisId: ga_sessions.unique_visitors
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 1912
+        __LINE_NUM: 1686
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -1695,7 +1695,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 1909
+      __LINE_NUM: 1683
     - label: ''
       orientation: bottom
       series:
@@ -1703,14 +1703,14 @@
         name: Percent New Users
         axisId: ga_sessions.percent_new_users
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 1928
+        __LINE_NUM: 1702
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 1925
+      __LINE_NUM: 1699
     - label: ''
       orientation: bottom
       series:
@@ -1718,14 +1718,14 @@
         name: Goal Conversion Rate
         axisId: ga_sessions.selected_goal_conversion_rate
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 1943
+        __LINE_NUM: 1717
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 1940
+      __LINE_NUM: 1714
     - label: ''
       orientation: bottom
       series:
@@ -1733,14 +1733,14 @@
         name: Avg Session Duration
         axisId: totals.timeonsite_average_per_session
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 1958
+        __LINE_NUM: 1732
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 1955
+      __LINE_NUM: 1729
     y_axis_combined: true
     show_y_axis_labels: false
     show_y_axis_ticks: true
@@ -1836,7 +1836,7 @@
         name: Users
         axisId: ga_sessions.unique_visitors
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 2060
+        __LINE_NUM: 1835
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -1844,7 +1844,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 2057
+      __LINE_NUM: 1832
     - label: ''
       orientation: bottom
       series:
@@ -1852,14 +1852,14 @@
         name: Percent New Users
         axisId: ga_sessions.percent_new_users
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 2076
+        __LINE_NUM: 1851
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 2073
+      __LINE_NUM: 1848
     - label: ''
       orientation: bottom
       series:
@@ -1867,14 +1867,14 @@
         name: Goal Conversion Rate
         axisId: ga_sessions.selected_goal_conversion_rate
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 2091
+        __LINE_NUM: 1866
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 2088
+      __LINE_NUM: 1863
     - label: ''
       orientation: bottom
       series:
@@ -1882,14 +1882,14 @@
         name: Avg Session Duration
         axisId: totals.timeonsite_average_per_session
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 2106
+        __LINE_NUM: 1881
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 2103
+      __LINE_NUM: 1878
     y_axis_combined: true
     show_y_axis_labels: false
     show_y_axis_ticks: true
@@ -2030,7 +2030,7 @@
         name: Unique Visitors
         axisId: ga_sessions.unique_visitors
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 826
+        __LINE_NUM: 2029
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -2038,7 +2038,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 823
+      __LINE_NUM: 2026
     - label:
       orientation: left
       series:
@@ -2046,7 +2046,7 @@
         name: Returning Visitors
         axisId: ga_sessions.returning_visitors
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 842
+        __LINE_NUM: 2045
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -2054,7 +2054,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 839
+      __LINE_NUM: 2042
     - label:
       orientation: left
       series:
@@ -2062,7 +2062,7 @@
         name: Session Count
         axisId: ga_sessions.session_count
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 858
+        __LINE_NUM: 2061
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -2070,7 +2070,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 855
+      __LINE_NUM: 2058
     - label:
       orientation: left
       series:
@@ -2078,7 +2078,7 @@
         name: Time On Site Average Per Session
         axisId: totals.timeonsite_average_per_session
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 874
+        __LINE_NUM: 2077
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -2086,7 +2086,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 871
+      __LINE_NUM: 2074
     - label: ''
       orientation: left
       series:
@@ -2094,14 +2094,14 @@
         name: Percent New Visitors
         axisId: percent_new_visitors
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 890
+        __LINE_NUM: 2093
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 887
+      __LINE_NUM: 2090
     - label:
       orientation: right
       series:
@@ -2109,7 +2109,7 @@
         name: Transaction Conversion Rate
         axisId: totals.transaction_conversion_rate
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 905
+        __LINE_NUM: 2108
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -2117,7 +2117,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 902
+      __LINE_NUM: 2105
     colors:
     - "#58A9F5"
     - "#B9E49A"
@@ -2228,7 +2228,7 @@
         name: Unique Users
         axisId: ga_sessions.unique_visitors
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 2217
+        __LINE_NUM: 2227
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -2236,7 +2236,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 2214
+      __LINE_NUM: 2224
     - label:
       orientation: bottom
       series:
@@ -2244,7 +2244,7 @@
         name: Percent New Users
         axisId: ga_sessions.percent_new_users
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 2233
+        __LINE_NUM: 2243
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -2252,7 +2252,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 2230
+      __LINE_NUM: 2240
     - label: ''
       orientation: bottom
       series:
@@ -2260,14 +2260,14 @@
         name: Goal Conversion Rate
         axisId: ga_sessions.selected_goal_conversion_rate
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 2249
+        __LINE_NUM: 2259
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 2246
+      __LINE_NUM: 2256
     - label: ''
       orientation: bottom
       series:
@@ -2275,14 +2275,14 @@
         name: Avg Session Duration
         axisId: totals.timeonsite_average_per_session
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 2264
+        __LINE_NUM: 2274
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 2261
+      __LINE_NUM: 2271
     y_axis_combined: true
     show_y_axis_labels: true
     show_y_axis_ticks: true
@@ -2386,14 +2386,14 @@
         - "#fff"
         - "#58A9F5"
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 2428
+        __LINE_NUM: 2384
       bold: false
       italic: false
       strikethrough: false
       fields:
       - ga_sessions.session_count
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 2423
+      __LINE_NUM: 2379
     series_labels:
       ga_sessions.visitStart_hour_of_day: Hour of Day
       ga_sessions.visitStart_day_of_week: Day of Week
@@ -2468,144 +2468,6 @@
     col: 12
     width: 12
     height: 12
-  - title: Mobile  Breakdown
-    name: Mobile  Breakdown
-    model: event_analytics
-    explore: ga_sessions
-    type: looker_pie
-    fields:
-    - ga_sessions.unique_visitors
-    - device.isMobile
-    filters:
-      ga_sessions.date_period_comparison_period: 'Yes'
-    sorts:
-    - ga_sessions.unique_visitors desc
-    limit: 8
-    column_limit: 50
-    value_labels: legend
-    label_type: labPer
-    inner_radius: 60
-    colors:
-    - "#58A9F5"
-    - "#5EC0C4"
-    - "#BFBFBF"
-    - "#7DC06A"
-    - "#D0A997"
-    - "#8696B8"
-    - "#C5D4B2"
-    series_colors: {}
-    series_labels:
-      totals.transaction_conversion_rate: Conversion Rate
-      ga_sessions.unique_visitors: Users
-    stacking: ''
-    show_value_labels: true
-    label_density: 25
-    legend_position: center
-    x_axis_gridlines: false
-    y_axis_gridlines: true
-    show_view_names: false
-    point_style: circle
-    series_types: {}
-    limit_displayed_rows: false
-    hidden_series:
-    - totals.avg_pageview_per_user
-    - ga_sessions.average_sessions_per_visitor
-    y_axes:
-    - label:
-      orientation: left
-      series:
-      - id: ga_sessions.unique_visitors
-        name: Users
-        axisId: ga_sessions.unique_visitors
-        __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 2650
-      showLabels: false
-      showValues: false
-      unpinAxis: false
-      tickDensity: default
-      tickDensityCustom: 5
-      type: linear
-      __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 2647
-    - label: ''
-      orientation: left
-      series:
-      - id: totals.transaction_conversion_rate
-        name: Conversion Rate
-        axisId: totals.transaction_conversion_rate
-        __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 2666
-      showLabels: false
-      showValues: false
-      unpinAxis: false
-      tickDensity: default
-      type: linear
-      __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 2663
-    - label: ''
-      orientation: left
-      series:
-      - id: totals.timeonsite_total
-        name: Time On Site
-        axisId: totals.timeonsite_total
-        __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 2681
-      showLabels: false
-      showValues: false
-      unpinAxis: false
-      tickDensity: default
-      type: linear
-      __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 2678
-    - label: ''
-      orientation: right
-      series:
-      - id: new_users
-        name: "% New Users"
-        axisId: new_users
-        __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 2696
-      showLabels: false
-      showValues: false
-      unpinAxis: false
-      tickDensity: default
-      type: linear
-      __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 2693
-    y_axis_combined: true
-    show_y_axis_labels: false
-    show_y_axis_ticks: true
-    y_axis_tick_density: default
-    y_axis_tick_density_custom: 5
-    show_x_axis_label: true
-    show_x_axis_ticks: false
-    x_axis_scale: auto
-    y_axis_scale_mode: linear
-    x_axis_reversed: false
-    y_axis_reversed: false
-    plot_size_by_field: false
-    x_axis_label_rotation: -45
-    show_null_points: true
-    interpolation: monotone
-    ordering: none
-    show_null_labels: false
-    show_totals_labels: false
-    show_silhouette: false
-    totals_color: "#808080"
-    hidden_fields: []
-    listen:
-      Period: ga_sessions.period
-      Campaign: trafficSource.campaign
-      First Time Visitor: ga_sessions.first_time_visitor
-      Country: geoNetwork.country
-      Host: ga_sessions.has_host
-      Page: ga_sessions.has_page
-      Goal Selection: ga_sessions.goal_selection
-      Search Keyword: trafficSource.keyword
-    row: 38
-    col: 12
-    width: 12
-    height: 7
   - title: Social Breakdown
     name: Social Breakdown
     model: event_analytics
@@ -2665,7 +2527,7 @@
         name: Users
         axisId: ga_sessions.unique_visitors
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 2513
+        __LINE_NUM: 2664
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -2673,7 +2535,7 @@
       tickDensityCustom: 3
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 2510
+      __LINE_NUM: 2661
     - label: ''
       orientation: left
       series:
@@ -2681,14 +2543,14 @@
         name: Percent New Users
         axisId: ga_sessions.percent_new_users
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 2529
+        __LINE_NUM: 2680
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 2526
+      __LINE_NUM: 2677
     - label: ''
       orientation: left
       series:
@@ -2696,14 +2558,14 @@
         name: Goal Conversion Rate
         axisId: ga_sessions.selected_goal_conversion_rate
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 2544
+        __LINE_NUM: 2695
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 2541
+      __LINE_NUM: 2692
     - label: ''
       orientation: left
       series:
@@ -2711,14 +2573,14 @@
         name: Avg Session Duration
         axisId: totals.timeonsite_average_per_session
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 2559
+        __LINE_NUM: 2710
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 2556
+      __LINE_NUM: 2707
     y_axis_combined: true
     show_y_axis_labels: true
     show_y_axis_ticks: true
@@ -2816,7 +2678,7 @@
         name: Users
         axisId: ga_sessions.unique_visitors
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 2800
+        __LINE_NUM: 2815
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -2824,28 +2686,13 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 2797
+      __LINE_NUM: 2812
     - label: ''
       orientation: bottom
       series:
       - id: ga_sessions.percent_new_users
         name: Percent New Users
         axisId: ga_sessions.percent_new_users
-        __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 2816
-      showLabels: false
-      showValues: false
-      unpinAxis: false
-      tickDensity: default
-      type: linear
-      __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 2813
-    - label: ''
-      orientation: bottom
-      series:
-      - id: ga_sessions.selected_goal_conversion_rate
-        name: Goal Conversion Rate
-        axisId: ga_sessions.selected_goal_conversion_rate
         __FILE: app-event-ga360/acquisition.dashboard.lookml
         __LINE_NUM: 2831
       showLabels: false
@@ -2858,9 +2705,9 @@
     - label: ''
       orientation: bottom
       series:
-      - id: totals.timeonsite_average_per_session
-        name: Avg Session Duration
-        axisId: totals.timeonsite_average_per_session
+      - id: ga_sessions.selected_goal_conversion_rate
+        name: Goal Conversion Rate
+        axisId: ga_sessions.selected_goal_conversion_rate
         __FILE: app-event-ga360/acquisition.dashboard.lookml
         __LINE_NUM: 2846
       showLabels: false
@@ -2870,6 +2717,21 @@
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
       __LINE_NUM: 2843
+    - label: ''
+      orientation: bottom
+      series:
+      - id: totals.timeonsite_average_per_session
+        name: Avg Session Duration
+        axisId: totals.timeonsite_average_per_session
+        __FILE: app-event-ga360/acquisition.dashboard.lookml
+        __LINE_NUM: 2861
+      showLabels: false
+      showValues: false
+      unpinAxis: false
+      tickDensity: default
+      type: linear
+      __FILE: app-event-ga360/acquisition.dashboard.lookml
+      __LINE_NUM: 2858
     y_axis_combined: true
     show_y_axis_labels: true
     show_y_axis_ticks: true
@@ -2949,14 +2811,14 @@
         - "#FFFFFF"
         - "#58A9F5"
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 2931
+        __LINE_NUM: 2947
       bold: false
       italic: false
       strikethrough: false
       fields:
       - ga_sessions.session_count
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 2926
+      __LINE_NUM: 2942
     - type: low to high
       value:
       background_color:
@@ -2967,14 +2829,14 @@
         - "#FFFFFF"
         - "#58A9F5"
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 2949
+        __LINE_NUM: 2965
       bold: false
       italic: false
       strikethrough: false
       fields:
       - ga_sessions.percent_new_users
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 2944
+      __LINE_NUM: 2960
     - type: low to high
       value:
       background_color:
@@ -2985,14 +2847,14 @@
         - "#FFFFFF"
         - "#58A9F5"
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 2967
+        __LINE_NUM: 2983
       bold: false
       italic: false
       strikethrough: false
       fields:
       - totals.timeonsite_average_per_session
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 2962
+      __LINE_NUM: 2978
     - type: low to high
       value:
       background_color:
@@ -3003,14 +2865,14 @@
         - "#FFFFFF"
         - "#58A9F5"
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 2985
+        __LINE_NUM: 3001
       bold: false
       italic: false
       strikethrough: false
       fields:
       - ga_sessions.selected_goal_conversion_rate
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 2980
+      __LINE_NUM: 2996
     conditional_formatting_include_totals: false
     conditional_formatting_include_nulls: false
     stacking: ''
@@ -3047,7 +2909,7 @@
         name: Transaction Conversion Rate
         axisId: totals.transaction_conversion_rate
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 3030
+        __LINE_NUM: 3046
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -3055,7 +2917,7 @@
       tickDensityCustom: 5
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 3027
+      __LINE_NUM: 3043
     - label:
       orientation: bottom
       series:
@@ -3063,7 +2925,7 @@
         name: Unique Visitors
         axisId: ga_sessions.unique_visitors
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 3046
+        __LINE_NUM: 3062
       showLabels: false
       showValues: false
       unpinAxis: false
@@ -3071,7 +2933,7 @@
       tickDensityCustom: 3
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 3043
+      __LINE_NUM: 3059
     - label: ''
       orientation: bottom
       series:
@@ -3079,14 +2941,14 @@
         name: Time On Site Average Per Session
         axisId: totals.timeonsite_average_per_session
         __FILE: app-event-ga360/acquisition.dashboard.lookml
-        __LINE_NUM: 3062
+        __LINE_NUM: 3078
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       type: linear
       __FILE: app-event-ga360/acquisition.dashboard.lookml
-      __LINE_NUM: 3059
+      __LINE_NUM: 3075
     colors:
     - "#B9E49A"
     - "#FDCB6C"
@@ -3115,6 +2977,146 @@
     col: 12
     width: 12
     height: 12
+  - title: Mobile  Breakdown
+    name: Mobile  Breakdown
+    model: event_analytics
+    explore: ga_sessions
+    type: looker_pie
+    fields:
+    - ga_sessions.unique_visitors
+    - device.isMobile
+    filters:
+      ga_sessions.date_period_comparison_period: 'Yes'
+    sorts:
+    - ga_sessions.unique_visitors desc
+    limit: 8
+    column_limit: 50
+    value_labels: legend
+    label_type: labPer
+    inner_radius: 60
+    colors:
+    - "#58A9F5"
+    - "#5EC0C4"
+    - "#BFBFBF"
+    - "#7DC06A"
+    - "#D0A997"
+    - "#8696B8"
+    - "#C5D4B2"
+    series_colors: {}
+    series_labels:
+      totals.transaction_conversion_rate: Conversion Rate
+      ga_sessions.unique_visitors: Users
+      'No': Other
+      'Yes': Mobile
+    stacking: ''
+    show_value_labels: true
+    label_density: 25
+    legend_position: center
+    x_axis_gridlines: false
+    y_axis_gridlines: true
+    show_view_names: false
+    point_style: circle
+    series_types: {}
+    limit_displayed_rows: false
+    hidden_series:
+    - totals.avg_pageview_per_user
+    - ga_sessions.average_sessions_per_visitor
+    y_axes:
+    - label:
+      orientation: left
+      series:
+      - id: ga_sessions.unique_visitors
+        name: Users
+        axisId: ga_sessions.unique_visitors
+        __FILE: app-event-ga360/acquisition.dashboard.lookml
+        __LINE_NUM: 2517
+      showLabels: false
+      showValues: false
+      unpinAxis: false
+      tickDensity: default
+      tickDensityCustom: 5
+      type: linear
+      __FILE: app-event-ga360/acquisition.dashboard.lookml
+      __LINE_NUM: 2514
+    - label: ''
+      orientation: left
+      series:
+      - id: totals.transaction_conversion_rate
+        name: Conversion Rate
+        axisId: totals.transaction_conversion_rate
+        __FILE: app-event-ga360/acquisition.dashboard.lookml
+        __LINE_NUM: 2533
+      showLabels: false
+      showValues: false
+      unpinAxis: false
+      tickDensity: default
+      type: linear
+      __FILE: app-event-ga360/acquisition.dashboard.lookml
+      __LINE_NUM: 2530
+    - label: ''
+      orientation: left
+      series:
+      - id: totals.timeonsite_total
+        name: Time On Site
+        axisId: totals.timeonsite_total
+        __FILE: app-event-ga360/acquisition.dashboard.lookml
+        __LINE_NUM: 2548
+      showLabels: false
+      showValues: false
+      unpinAxis: false
+      tickDensity: default
+      type: linear
+      __FILE: app-event-ga360/acquisition.dashboard.lookml
+      __LINE_NUM: 2545
+    - label: ''
+      orientation: right
+      series:
+      - id: new_users
+        name: "% New Users"
+        axisId: new_users
+        __FILE: app-event-ga360/acquisition.dashboard.lookml
+        __LINE_NUM: 2563
+      showLabels: false
+      showValues: false
+      unpinAxis: false
+      tickDensity: default
+      type: linear
+      __FILE: app-event-ga360/acquisition.dashboard.lookml
+      __LINE_NUM: 2560
+    y_axis_combined: true
+    show_y_axis_labels: false
+    show_y_axis_ticks: true
+    y_axis_tick_density: default
+    y_axis_tick_density_custom: 5
+    show_x_axis_label: true
+    show_x_axis_ticks: false
+    x_axis_scale: auto
+    y_axis_scale_mode: linear
+    x_axis_reversed: false
+    y_axis_reversed: false
+    plot_size_by_field: false
+    x_axis_label_rotation: -45
+    show_null_points: true
+    interpolation: monotone
+    ordering: none
+    show_null_labels: false
+    show_totals_labels: false
+    show_silhouette: false
+    totals_color: "#808080"
+    hidden_fields: []
+    listen:
+      Period: ga_sessions.period
+      Campaign: trafficSource.campaign
+      First Time Visitor: ga_sessions.first_time_visitor
+      Country: geoNetwork.country
+      Host: ga_sessions.has_host
+      Page: ga_sessions.has_page
+      Goal Selection: ga_sessions.goal_selection
+      Search Keyword: trafficSource.keyword
+    row: 38
+    col: 12
+    width: 12
+    height: 7
   filters:
   - name: Period
     title: Period
