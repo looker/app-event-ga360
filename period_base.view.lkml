@@ -211,7 +211,6 @@ view: sessions_period_base {
   }
 
   dimension: date_period_latest {
-    hidden: yes
     description: "Is the selected period (This Period) the current period?"
     type: yesno
     group_label: "Event"
