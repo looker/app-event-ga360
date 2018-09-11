@@ -16,7 +16,7 @@ explore: ga_sessions_template {
 }
 
 view: ga_sessions_template {
-  extends: [ga_sessions_adapter, date_base, period_base, event_base, page_base]
+  extends: [ga_sessions_adapter, date_base, sessions_period_base, event_base, page_base]
   extension: required
 
   dimension: _date {
