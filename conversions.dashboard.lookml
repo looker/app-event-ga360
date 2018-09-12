@@ -1565,7 +1565,7 @@
       ga_sessions.has_page: ''
     sorts:
     - ga_sessions.visitStart_date desc
-    limit: 14
+    limit: 364
     column_limit: 50
     stacking: ''
     colors:
