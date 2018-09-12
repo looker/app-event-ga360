@@ -57,6 +57,10 @@ view: peer_comparison {
     hidden:  yes
   }
 
+  dimension_group: date {
+    hidden: yes
+  }
+
   dimension: date_last_period {
     hidden:  yes
   }
@@ -167,6 +171,7 @@ view: peer_comparison {
 
 explore: peer_comparison {
   from: peer_comparison
+  hidden: yes
   view_name: ga_sessions
   label: "Peer Comparison"
   view_label: "Peer Comparison"
