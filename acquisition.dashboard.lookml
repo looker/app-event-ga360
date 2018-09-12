@@ -1,6 +1,6 @@
-- dashboard: acquisition_0911
-  title: Acquisition_0911
-  extends: google_analytics_dash_base
+- dashboard: acquisition
+  title: Acquisition
+  extends: event_analytics_dash_base
   layout: newspaper
   embed_style:
     background_color: "#ffffff"
