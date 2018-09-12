@@ -1,6 +1,6 @@
 - dashboard: google_analytics_overview
-  extends: event_analytics_dash_base
   title: Google Analytics Overview
+  extends: event_analytics_dash_base
   layout: newspaper
   embed_style:
     background_color: "#ffffff"
@@ -129,95 +129,95 @@
       - id: ga_sessions.unique_visitors
         name: Unique Visitors
         axisId: ga_sessions.unique_visitors
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 606
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 129
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       tickDensityCustom: 5
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 603
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 126
     - label:
       orientation: left
       series:
       - id: ga_sessions.returning_visitors
         name: Returning Visitors
         axisId: ga_sessions.returning_visitors
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 622
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 145
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       tickDensityCustom: 5
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 619
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 142
     - label:
       orientation: left
       series:
       - id: ga_sessions.session_count
         name: Session Count
         axisId: ga_sessions.session_count
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 638
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 161
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       tickDensityCustom: 5
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 635
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 158
     - label:
       orientation: left
       series:
       - id: totals.timeonsite_average_per_session
         name: Time On Site Average Per Session
         axisId: totals.timeonsite_average_per_session
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 654
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 177
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       tickDensityCustom: 5
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 651
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 174
     - label: ''
       orientation: left
       series:
       - id: percent_new_visitors
         name: Percent New Visitors
         axisId: percent_new_visitors
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 670
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 193
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 667
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 190
     - label:
       orientation: right
       series:
       - id: totals.transaction_conversion_rate
         name: Transaction Conversion Rate
         axisId: totals.transaction_conversion_rate
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 685
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 208
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       tickDensityCustom: 5
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 682
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 205
     colors:
     - "#58A9F5"
     - "#B9E49A"
@@ -254,6 +254,7 @@
       Host: ga_sessions.has_host
       Goal Selection: ga_sessions.goal_selection
       Search Keyword: trafficSource.keyword
+      Property: ga_sessions.property
     row: 0
     col: 4
     width: 4
@@ -363,95 +364,95 @@
       - id: ga_sessions.unique_visitors
         name: Unique Visitors
         axisId: ga_sessions.unique_visitors
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 129
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 363
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       tickDensityCustom: 5
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 126
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 360
     - label:
       orientation: left
       series:
       - id: ga_sessions.returning_visitors
         name: Returning Visitors
         axisId: ga_sessions.returning_visitors
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 145
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 379
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       tickDensityCustom: 5
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 142
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 376
     - label:
       orientation: left
       series:
       - id: ga_sessions.session_count
         name: Session Count
         axisId: ga_sessions.session_count
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 161
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 395
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       tickDensityCustom: 5
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 158
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 392
     - label:
       orientation: left
       series:
       - id: totals.timeonsite_average_per_session
         name: Time On Site Average Per Session
         axisId: totals.timeonsite_average_per_session
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 177
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 411
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       tickDensityCustom: 5
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 174
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 408
     - label: ''
       orientation: left
       series:
       - id: percent_new_visitors
         name: Percent New Visitors
         axisId: percent_new_visitors
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 193
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 427
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 190
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 424
     - label:
       orientation: right
       series:
       - id: totals.transaction_conversion_rate
         name: Transaction Conversion Rate
         axisId: totals.transaction_conversion_rate
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 208
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 442
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       tickDensityCustom: 5
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 205
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 439
     colors:
     - "#58A9F5"
     - "#B9E49A"
@@ -488,242 +489,9 @@
       Host: ga_sessions.has_host
       Goal Selection: ga_sessions.goal_selection
       Search Keyword: trafficSource.keyword
+      Property: ga_sessions.property
     row: 0
     col: 0
-    width: 4
-    height: 2
-  - title: Returning Users
-    name: Returning Users
-    model: event_analytics
-    explore: ga_sessions
-    type: single_value
-    fields:
-    - ga_sessions.date_period
-    - ga_sessions.session_count
-    - totals.timeonsite_average_per_session
-    - ga_sessions.unique_visitors
-    - ga_sessions.returning_visitors
-    - totals.transaction_conversion_rate
-    - totals.bounce_rate
-    filters:
-      ga_sessions.date_period_comparison_period: 'Yes'
-    sorts:
-    - ga_sessions.date_period desc
-    limit: 2
-    column_limit: 50
-    dynamic_fields:
-    - table_calculation: sessions
-      label: Sessions
-      expression: "(${ga_sessions.session_count} - offset(${ga_sessions.session_count},\
-        \ 1)) / offset(${ga_sessions.session_count}, 1)"
-      value_format:
-      value_format_name: percent_2
-      _kind_hint: measure
-      _type_hint: number
-    - table_calculation: avg_duration
-      label: Avg Duration
-      expression: "(${totals.timeonsite_average_per_session} - offset(${totals.timeonsite_average_per_session},\
-        \ 1)) / offset(${totals.timeonsite_average_per_session}, 1)"
-      value_format:
-      value_format_name: percent_2
-      _kind_hint: measure
-      _type_hint: number
-    - table_calculation: users
-      label: Users
-      expression: "(${ga_sessions.unique_visitors} - offset(${ga_sessions.unique_visitors},\
-        \ 1)) / offset(${ga_sessions.unique_visitors}, 1)"
-      value_format:
-      value_format_name: percent_2
-      _kind_hint: measure
-      _type_hint: number
-    - table_calculation: returning_users
-      label: Returning Users
-      expression: "(${ga_sessions.returning_visitors} - offset(${ga_sessions.returning_visitors},\
-        \ 1)) / offset(${ga_sessions.returning_visitors}, 1)"
-      value_format:
-      value_format_name: percent_2
-      _kind_hint: measure
-      _type_hint: number
-    - table_calculation: conversion_rate
-      label: Conversion Rate
-      expression: "(${totals.transaction_conversion_rate} - offset(${totals.transaction_conversion_rate},\
-        \ 1)) / offset(${totals.transaction_conversion_rate}, 1)"
-      value_format:
-      value_format_name: percent_2
-      _kind_hint: measure
-      _type_hint: number
-    - table_calculation: bounce_rate
-      label: Bounce Rate
-      expression: "(${totals.bounce_rate} - offset(${totals.bounce_rate}, 1)) / offset(${totals.bounce_rate},\
-        \ 1)"
-      value_format:
-      value_format_name: percent_2
-      _kind_hint: measure
-      _type_hint: number
-    custom_color_enabled: false
-    custom_color: forestgreen
-    show_single_value_title: true
-    show_comparison: true
-    comparison_type: change
-    comparison_reverse_colors: false
-    show_comparison_label: false
-    stacking: ''
-    show_value_labels: true
-    label_density: 25
-    legend_position: center
-    x_axis_gridlines: true
-    y_axis_gridlines: true
-    show_view_names: false
-    limit_displayed_rows: false
-    y_axis_combined: true
-    show_y_axis_labels: true
-    show_y_axis_ticks: true
-    y_axis_tick_density: default
-    y_axis_tick_density_custom: 5
-    show_x_axis_label: true
-    show_x_axis_ticks: true
-    x_axis_scale: auto
-    y_axis_scale_mode: linear
-    x_axis_reversed: false
-    y_axis_reversed: false
-    show_null_points: true
-    point_style: circle_outline
-    interpolation: monotone
-    series_types: {}
-    y_axes:
-    - label: ''
-      orientation: left
-      series:
-      - id: ga_sessions.unique_visitors
-        name: Unique Visitors
-        axisId: ga_sessions.unique_visitors
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 839
-      showLabels: false
-      showValues: false
-      unpinAxis: false
-      tickDensity: default
-      tickDensityCustom: 5
-      type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 836
-    - label:
-      orientation: left
-      series:
-      - id: ga_sessions.returning_visitors
-        name: Returning Visitors
-        axisId: ga_sessions.returning_visitors
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 855
-      showLabels: false
-      showValues: false
-      unpinAxis: false
-      tickDensity: default
-      tickDensityCustom: 5
-      type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 852
-    - label:
-      orientation: left
-      series:
-      - id: ga_sessions.session_count
-        name: Session Count
-        axisId: ga_sessions.session_count
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 871
-      showLabels: false
-      showValues: false
-      unpinAxis: false
-      tickDensity: default
-      tickDensityCustom: 5
-      type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 868
-    - label:
-      orientation: left
-      series:
-      - id: totals.timeonsite_average_per_session
-        name: Time On Site Average Per Session
-        axisId: totals.timeonsite_average_per_session
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 887
-      showLabels: false
-      showValues: false
-      unpinAxis: false
-      tickDensity: default
-      tickDensityCustom: 5
-      type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 884
-    - label: ''
-      orientation: left
-      series:
-      - id: percent_new_visitors
-        name: Percent New Visitors
-        axisId: percent_new_visitors
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 903
-      showLabels: false
-      showValues: false
-      unpinAxis: false
-      tickDensity: default
-      type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 900
-    - label:
-      orientation: right
-      series:
-      - id: totals.transaction_conversion_rate
-        name: Transaction Conversion Rate
-        axisId: totals.transaction_conversion_rate
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 918
-      showLabels: false
-      showValues: false
-      unpinAxis: false
-      tickDensity: default
-      tickDensityCustom: 5
-      type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 915
-    colors:
-    - "#58A9F5"
-    - "#B9E49A"
-    - "#FDCB6C"
-    - "#F6659A"
-    - "#5EC0C4"
-    - "#BFBFBF"
-    - "#7DC06A"
-    - "#D0A997"
-    - "#8696B8"
-    - "#C5D4B2"
-    series_colors: {}
-    hidden_series:
-    - totals.timeonsite_average_per_session
-    - ga_sessions.unique_visitors
-    - totals.transaction_conversion_rate
-    hidden_fields:
-    - totals.transaction_conversion_rate
-    - totals.bounce_rate
-    - conversion_rate
-    - bounce_rate
-    - ga_sessions.session_count
-    - sessions
-    - totals.timeonsite_average_per_session
-    - avg_duration
-    - ga_sessions.unique_visitors
-    - users
-    listen:
-      Period: ga_sessions.period
-      Campaign: trafficSource.campaign
-      First Time Visitor: ga_sessions.first_time_visitor
-      Country: geoNetwork.country
-      Page: ga_sessions.has_page
-      Host: ga_sessions.has_host
-      Goal Selection: ga_sessions.goal_selection
-      Search Keyword: trafficSource.keyword
-    row: 0
-    col: 12
     width: 4
     height: 2
   - title: Users
@@ -831,95 +599,95 @@
       - id: ga_sessions.unique_visitors
         name: Unique Visitors
         axisId: ga_sessions.unique_visitors
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 1072
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 831
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       tickDensityCustom: 5
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 1069
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 828
     - label:
       orientation: left
       series:
       - id: ga_sessions.returning_visitors
         name: Returning Visitors
         axisId: ga_sessions.returning_visitors
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 1088
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 847
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       tickDensityCustom: 5
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 1085
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 844
     - label:
       orientation: left
       series:
       - id: ga_sessions.session_count
         name: Session Count
         axisId: ga_sessions.session_count
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 1104
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 863
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       tickDensityCustom: 5
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 1101
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 860
     - label:
       orientation: left
       series:
       - id: totals.timeonsite_average_per_session
         name: Time On Site Average Per Session
         axisId: totals.timeonsite_average_per_session
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 1120
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 879
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       tickDensityCustom: 5
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 1117
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 876
     - label: ''
       orientation: left
       series:
       - id: percent_new_visitors
         name: Percent New Visitors
         axisId: percent_new_visitors
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 1136
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 895
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 1133
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 892
     - label:
       orientation: right
       series:
       - id: totals.transaction_conversion_rate
         name: Transaction Conversion Rate
         axisId: totals.transaction_conversion_rate
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 1151
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 910
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       tickDensityCustom: 5
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 1148
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 907
     colors:
     - "#58A9F5"
     - "#B9E49A"
@@ -956,8 +724,244 @@
       Host: ga_sessions.has_host
       Goal Selection: ga_sessions.goal_selection
       Search Keyword: trafficSource.keyword
+      Property: ga_sessions.property
     row: 0
     col: 8
+    width: 4
+    height: 2
+  - title: Returning Users
+    name: Returning Users
+    model: event_analytics
+    explore: ga_sessions
+    type: single_value
+    fields:
+    - ga_sessions.date_period
+    - ga_sessions.session_count
+    - totals.timeonsite_average_per_session
+    - ga_sessions.unique_visitors
+    - ga_sessions.returning_visitors
+    - totals.transaction_conversion_rate
+    - totals.bounce_rate
+    filters:
+      ga_sessions.date_period_comparison_period: 'Yes'
+    sorts:
+    - ga_sessions.date_period desc
+    limit: 2
+    column_limit: 50
+    dynamic_fields:
+    - table_calculation: sessions
+      label: Sessions
+      expression: "(${ga_sessions.session_count} - offset(${ga_sessions.session_count},\
+        \ 1)) / offset(${ga_sessions.session_count}, 1)"
+      value_format:
+      value_format_name: percent_2
+      _kind_hint: measure
+      _type_hint: number
+    - table_calculation: avg_duration
+      label: Avg Duration
+      expression: "(${totals.timeonsite_average_per_session} - offset(${totals.timeonsite_average_per_session},\
+        \ 1)) / offset(${totals.timeonsite_average_per_session}, 1)"
+      value_format:
+      value_format_name: percent_2
+      _kind_hint: measure
+      _type_hint: number
+    - table_calculation: users
+      label: Users
+      expression: "(${ga_sessions.unique_visitors} - offset(${ga_sessions.unique_visitors},\
+        \ 1)) / offset(${ga_sessions.unique_visitors}, 1)"
+      value_format:
+      value_format_name: percent_2
+      _kind_hint: measure
+      _type_hint: number
+    - table_calculation: returning_users
+      label: Returning Users
+      expression: "(${ga_sessions.returning_visitors} - offset(${ga_sessions.returning_visitors},\
+        \ 1)) / offset(${ga_sessions.returning_visitors}, 1)"
+      value_format:
+      value_format_name: percent_2
+      _kind_hint: measure
+      _type_hint: number
+    - table_calculation: conversion_rate
+      label: Conversion Rate
+      expression: "(${totals.transaction_conversion_rate} - offset(${totals.transaction_conversion_rate},\
+        \ 1)) / offset(${totals.transaction_conversion_rate}, 1)"
+      value_format:
+      value_format_name: percent_2
+      _kind_hint: measure
+      _type_hint: number
+    - table_calculation: bounce_rate
+      label: Bounce Rate
+      expression: "(${totals.bounce_rate} - offset(${totals.bounce_rate}, 1)) / offset(${totals.bounce_rate},\
+        \ 1)"
+      value_format:
+      value_format_name: percent_2
+      _kind_hint: measure
+      _type_hint: number
+    custom_color_enabled: false
+    custom_color: forestgreen
+    show_single_value_title: true
+    show_comparison: true
+    comparison_type: change
+    comparison_reverse_colors: false
+    show_comparison_label: false
+    stacking: ''
+    show_value_labels: true
+    label_density: 25
+    legend_position: center
+    x_axis_gridlines: true
+    y_axis_gridlines: true
+    show_view_names: false
+    limit_displayed_rows: false
+    y_axis_combined: true
+    show_y_axis_labels: true
+    show_y_axis_ticks: true
+    y_axis_tick_density: default
+    y_axis_tick_density_custom: 5
+    show_x_axis_label: true
+    show_x_axis_ticks: true
+    x_axis_scale: auto
+    y_axis_scale_mode: linear
+    x_axis_reversed: false
+    y_axis_reversed: false
+    show_null_points: true
+    point_style: circle_outline
+    interpolation: monotone
+    series_types: {}
+    y_axes:
+    - label: ''
+      orientation: left
+      series:
+      - id: ga_sessions.unique_visitors
+        name: Unique Visitors
+        axisId: ga_sessions.unique_visitors
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 597
+      showLabels: false
+      showValues: false
+      unpinAxis: false
+      tickDensity: default
+      tickDensityCustom: 5
+      type: linear
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 594
+    - label:
+      orientation: left
+      series:
+      - id: ga_sessions.returning_visitors
+        name: Returning Visitors
+        axisId: ga_sessions.returning_visitors
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 613
+      showLabels: false
+      showValues: false
+      unpinAxis: false
+      tickDensity: default
+      tickDensityCustom: 5
+      type: linear
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 610
+    - label:
+      orientation: left
+      series:
+      - id: ga_sessions.session_count
+        name: Session Count
+        axisId: ga_sessions.session_count
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 629
+      showLabels: false
+      showValues: false
+      unpinAxis: false
+      tickDensity: default
+      tickDensityCustom: 5
+      type: linear
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 626
+    - label:
+      orientation: left
+      series:
+      - id: totals.timeonsite_average_per_session
+        name: Time On Site Average Per Session
+        axisId: totals.timeonsite_average_per_session
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 645
+      showLabels: false
+      showValues: false
+      unpinAxis: false
+      tickDensity: default
+      tickDensityCustom: 5
+      type: linear
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 642
+    - label: ''
+      orientation: left
+      series:
+      - id: percent_new_visitors
+        name: Percent New Visitors
+        axisId: percent_new_visitors
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 661
+      showLabels: false
+      showValues: false
+      unpinAxis: false
+      tickDensity: default
+      type: linear
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 658
+    - label:
+      orientation: right
+      series:
+      - id: totals.transaction_conversion_rate
+        name: Transaction Conversion Rate
+        axisId: totals.transaction_conversion_rate
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 676
+      showLabels: false
+      showValues: false
+      unpinAxis: false
+      tickDensity: default
+      tickDensityCustom: 5
+      type: linear
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 673
+    colors:
+    - "#58A9F5"
+    - "#B9E49A"
+    - "#FDCB6C"
+    - "#F6659A"
+    - "#5EC0C4"
+    - "#BFBFBF"
+    - "#7DC06A"
+    - "#D0A997"
+    - "#8696B8"
+    - "#C5D4B2"
+    series_colors: {}
+    hidden_series:
+    - totals.timeonsite_average_per_session
+    - ga_sessions.unique_visitors
+    - totals.transaction_conversion_rate
+    hidden_fields:
+    - totals.transaction_conversion_rate
+    - totals.bounce_rate
+    - conversion_rate
+    - bounce_rate
+    - ga_sessions.session_count
+    - sessions
+    - totals.timeonsite_average_per_session
+    - avg_duration
+    - ga_sessions.unique_visitors
+    - users
+    listen:
+      Period: ga_sessions.period
+      Campaign: trafficSource.campaign
+      First Time Visitor: ga_sessions.first_time_visitor
+      Country: geoNetwork.country
+      Page: ga_sessions.has_page
+      Host: ga_sessions.has_host
+      Goal Selection: ga_sessions.goal_selection
+      Search Keyword: trafficSource.keyword
+      Property: ga_sessions.property
+    row: 0
+    col: 12
     width: 4
     height: 2
   - title: Goal Conv Rate
@@ -1074,95 +1078,95 @@
       - id: ga_sessions.unique_visitors
         name: Unique Visitors
         axisId: ga_sessions.unique_visitors
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 371
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 1074
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       tickDensityCustom: 5
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 368
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 1071
     - label:
       orientation: left
       series:
       - id: ga_sessions.returning_visitors
         name: Returning Visitors
         axisId: ga_sessions.returning_visitors
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 387
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 1090
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       tickDensityCustom: 5
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 384
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 1087
     - label:
       orientation: left
       series:
       - id: ga_sessions.session_count
         name: Session Count
         axisId: ga_sessions.session_count
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 403
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 1106
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       tickDensityCustom: 5
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 400
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 1103
     - label:
       orientation: left
       series:
       - id: totals.timeonsite_average_per_session
         name: Time On Site Average Per Session
         axisId: totals.timeonsite_average_per_session
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 419
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 1122
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       tickDensityCustom: 5
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 416
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 1119
     - label: ''
       orientation: left
       series:
       - id: percent_new_visitors
         name: Percent New Visitors
         axisId: percent_new_visitors
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 435
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 1138
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 432
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 1135
     - label:
       orientation: right
       series:
       - id: totals.transaction_conversion_rate
         name: Transaction Conversion Rate
         axisId: totals.transaction_conversion_rate
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 450
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 1153
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       tickDensityCustom: 5
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 447
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 1150
     colors:
     - "#58A9F5"
     - "#B9E49A"
@@ -1201,10 +1205,293 @@
       Host: ga_sessions.has_host
       Goal Selection: ga_sessions.goal_selection
       Search Keyword: trafficSource.keyword
+      Property: ga_sessions.property
     row: 0
     col: 16
     width: 4
     height: 2
+  - title: Engagement by Medium
+    name: Engagement by Medium
+    model: event_analytics
+    explore: ga_sessions
+    type: looker_line
+    fields:
+    - totals.avg_pageview_per_user
+    - ga_sessions.average_sessions_per_visitor
+    - totals.timeonsite_average_per_session
+    - ga_sessions.unique_visitors
+    - trafficSource.medium
+    filters:
+      ga_sessions.date_period_latest: 'Yes'
+    sorts:
+    - ga_sessions.unique_visitors desc
+    limit: 8
+    column_limit: 50
+    stacking: ''
+    show_value_labels: true
+    label_density: 25
+    legend_position: center
+    x_axis_gridlines: false
+    y_axis_gridlines: true
+    show_view_names: false
+    limit_displayed_rows: false
+    y_axis_combined: true
+    show_y_axis_labels: false
+    show_y_axis_ticks: true
+    y_axis_tick_density: default
+    y_axis_tick_density_custom: 5
+    show_x_axis_label: true
+    show_x_axis_ticks: true
+    x_axis_scale: auto
+    y_axis_scale_mode: linear
+    x_axis_reversed: false
+    y_axis_reversed: false
+    show_null_points: true
+    point_style: circle
+    interpolation: monotone
+    ordering: none
+    show_null_labels: false
+    show_totals_labels: false
+    show_silhouette: false
+    totals_color: "#808080"
+    series_types:
+      ga_sessions.unique_visitors: column
+    y_axes:
+    - label:
+      orientation: left
+      series:
+      - id: ga_sessions.unique_visitors
+        name: Unique Visitors
+        axisId: ga_sessions.unique_visitors
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 1632
+      showLabels: false
+      showValues: false
+      unpinAxis: false
+      tickDensity: default
+      tickDensityCustom: 5
+      type: linear
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 1629
+    - label:
+      orientation: left
+      series:
+      - id: totals.avg_pageview_per_user
+        name: Average Pageviews per User
+        axisId: totals.avg_pageview_per_user
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 1648
+      showLabels: false
+      showValues: false
+      unpinAxis: false
+      tickDensity: default
+      tickDensityCustom: 5
+      type: linear
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 1645
+    - label:
+      orientation: left
+      series:
+      - id: ga_sessions.average_sessions_per_visitor
+        name: Average Sessions Ver Visitor
+        axisId: ga_sessions.average_sessions_per_visitor
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 1664
+      showLabels: false
+      showValues: false
+      unpinAxis: false
+      tickDensity: default
+      tickDensityCustom: 5
+      type: linear
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 1661
+    - label:
+      orientation: right
+      series:
+      - id: totals.timeonsite_average_per_session
+        name: Time On Site Average Per Session
+        axisId: totals.timeonsite_average_per_session
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 1680
+      showLabels: false
+      showValues: false
+      unpinAxis: false
+      tickDensity: default
+      tickDensityCustom: 5
+      type: linear
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 1677
+    colors:
+    - "#F6659A"
+    - "#B9E49A"
+    - "#FDCB6C"
+    - "#58A9F5"
+    - "#5EC0C4"
+    - "#BFBFBF"
+    - "#7DC06A"
+    - "#D0A997"
+    - "#8696B8"
+    - "#C5D4B2"
+    series_colors: {}
+    hidden_series:
+    - totals.avg_pageview_per_user
+    - ga_sessions.average_sessions_per_visitor
+    x_axis_label_rotation: -45
+    listen:
+      Period: ga_sessions.period
+      Campaign: trafficSource.campaign
+      First Time Visitor: ga_sessions.first_time_visitor
+      Country: geoNetwork.country
+      Page: ga_sessions.has_page
+      Host: ga_sessions.has_host
+      Goal Selection: ga_sessions.goal_selection
+      Search Keyword: trafficSource.keyword
+      Property: ga_sessions.property
+    row: 12
+    col: 8
+    width: 8
+    height: 13
+  - title: Engagement by Traffic Source
+    name: Engagement by Traffic Source
+    model: event_analytics
+    explore: ga_sessions
+    type: looker_line
+    fields:
+    - ga_sessions.channelGrouping
+    - totals.avg_pageview_per_user
+    - ga_sessions.average_sessions_per_visitor
+    - totals.timeonsite_average_per_session
+    - ga_sessions.unique_visitors
+    filters:
+      ga_sessions.date_period_latest: 'Yes'
+    sorts:
+    - ga_sessions.unique_visitors desc
+    limit: 8
+    column_limit: 50
+    stacking: ''
+    show_value_labels: true
+    label_density: 25
+    legend_position: center
+    x_axis_gridlines: false
+    y_axis_gridlines: true
+    show_view_names: false
+    limit_displayed_rows: false
+    y_axis_combined: true
+    show_y_axis_labels: false
+    show_y_axis_ticks: true
+    y_axis_tick_density: default
+    y_axis_tick_density_custom: 5
+    show_x_axis_label: true
+    show_x_axis_ticks: true
+    x_axis_scale: auto
+    y_axis_scale_mode: linear
+    x_axis_reversed: false
+    y_axis_reversed: false
+    show_null_points: true
+    point_style: circle
+    interpolation: monotone
+    ordering: none
+    show_null_labels: false
+    show_totals_labels: false
+    show_silhouette: false
+    totals_color: "#808080"
+    series_types:
+      ga_sessions.unique_visitors: column
+    y_axes:
+    - label:
+      orientation: left
+      series:
+      - id: ga_sessions.unique_visitors
+        name: Unique Visitors
+        axisId: ga_sessions.unique_visitors
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 1492
+      showLabels: false
+      showValues: false
+      unpinAxis: false
+      tickDensity: default
+      tickDensityCustom: 5
+      type: linear
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 1489
+    - label:
+      orientation: left
+      series:
+      - id: totals.avg_pageview_per_user
+        name: Average Pageviews per User
+        axisId: totals.avg_pageview_per_user
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 1508
+      showLabels: false
+      showValues: false
+      unpinAxis: false
+      tickDensity: default
+      tickDensityCustom: 5
+      type: linear
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 1505
+    - label:
+      orientation: left
+      series:
+      - id: ga_sessions.average_sessions_per_visitor
+        name: Average Sessions Ver Visitor
+        axisId: ga_sessions.average_sessions_per_visitor
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 1524
+      showLabels: false
+      showValues: false
+      unpinAxis: false
+      tickDensity: default
+      tickDensityCustom: 5
+      type: linear
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 1521
+    - label:
+      orientation: right
+      series:
+      - id: totals.timeonsite_average_per_session
+        name: Time On Site Average Per Session
+        axisId: totals.timeonsite_average_per_session
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 1540
+      showLabels: false
+      showValues: false
+      unpinAxis: false
+      tickDensity: default
+      tickDensityCustom: 5
+      type: linear
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 1537
+    colors:
+    - "#F6659A"
+    - "#B9E49A"
+    - "#FDCB6C"
+    - "#58A9F5"
+    - "#5EC0C4"
+    - "#BFBFBF"
+    - "#7DC06A"
+    - "#D0A997"
+    - "#8696B8"
+    - "#C5D4B2"
+    series_colors: {}
+    hidden_series:
+    - totals.avg_pageview_per_user
+    - ga_sessions.average_sessions_per_visitor
+    x_axis_label_rotation: -45
+    listen:
+      Period: ga_sessions.period
+      Campaign: trafficSource.campaign
+      First Time Visitor: ga_sessions.first_time_visitor
+      Country: geoNetwork.country
+      Page: ga_sessions.has_page
+      Host: ga_sessions.has_host
+      Goal Selection: ga_sessions.goal_selection
+      Search Keyword: trafficSource.keyword
+      Property: ga_sessions.property
+    row: 12
+    col: 0
+    width: 8
+    height: 13
   - title: Bounce Rate
     name: Bounce Rate
     model: event_analytics
@@ -1310,95 +1597,95 @@
       - id: ga_sessions.unique_visitors
         name: Unique Visitors
         axisId: ga_sessions.unique_visitors
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 1305
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 1310
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       tickDensityCustom: 5
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 1302
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 1307
     - label:
       orientation: left
       series:
       - id: ga_sessions.returning_visitors
         name: Returning Visitors
         axisId: ga_sessions.returning_visitors
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 1321
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 1326
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       tickDensityCustom: 5
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 1318
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 1323
     - label:
       orientation: left
       series:
       - id: ga_sessions.session_count
         name: Session Count
         axisId: ga_sessions.session_count
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 1337
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 1342
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       tickDensityCustom: 5
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 1334
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 1339
     - label:
       orientation: left
       series:
       - id: totals.timeonsite_average_per_session
         name: Time On Site Average Per Session
         axisId: totals.timeonsite_average_per_session
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 1353
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 1358
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       tickDensityCustom: 5
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 1350
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 1355
     - label: ''
       orientation: left
       series:
       - id: percent_new_visitors
         name: Percent New Visitors
         axisId: percent_new_visitors
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 1369
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 1374
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 1366
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 1371
     - label:
       orientation: right
       series:
       - id: totals.transaction_conversion_rate
         name: Transaction Conversion Rate
         axisId: totals.transaction_conversion_rate
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 1384
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 1389
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       tickDensityCustom: 5
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 1381
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 1386
     colors:
     - "#58A9F5"
     - "#B9E49A"
@@ -1435,290 +1722,11 @@
       Host: ga_sessions.has_host
       Goal Selection: ga_sessions.goal_selection
       Search Keyword: trafficSource.keyword
+      Property: ga_sessions.property
     row: 0
     col: 20
     width: 4
     height: 2
-  - title: Engagement by Traffic Source
-    name: Engagement by Traffic Source
-    model: event_analytics
-    explore: ga_sessions
-    type: looker_line
-    fields:
-    - ga_sessions.channelGrouping
-    - totals.avg_pageview_per_user
-    - ga_sessions.average_sessions_per_visitor
-    - totals.timeonsite_average_per_session
-    - ga_sessions.unique_visitors
-    filters:
-      ga_sessions.date_period_latest: 'Yes'
-    sorts:
-    - ga_sessions.unique_visitors desc
-    limit: 8
-    column_limit: 50
-    stacking: ''
-    show_value_labels: true
-    label_density: 25
-    legend_position: center
-    x_axis_gridlines: false
-    y_axis_gridlines: true
-    show_view_names: false
-    limit_displayed_rows: false
-    y_axis_combined: true
-    show_y_axis_labels: false
-    show_y_axis_ticks: true
-    y_axis_tick_density: default
-    y_axis_tick_density_custom: 5
-    show_x_axis_label: true
-    show_x_axis_ticks: true
-    x_axis_scale: auto
-    y_axis_scale_mode: linear
-    x_axis_reversed: false
-    y_axis_reversed: false
-    show_null_points: true
-    point_style: circle
-    interpolation: monotone
-    ordering: none
-    show_null_labels: false
-    show_totals_labels: false
-    show_silhouette: false
-    totals_color: "#808080"
-    series_types:
-      ga_sessions.unique_visitors: column
-    y_axes:
-    - label:
-      orientation: left
-      series:
-      - id: ga_sessions.unique_visitors
-        name: Unique Visitors
-        axisId: ga_sessions.unique_visitors
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 1670
-      showLabels: false
-      showValues: false
-      unpinAxis: false
-      tickDensity: default
-      tickDensityCustom: 5
-      type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 1667
-    - label:
-      orientation: left
-      series:
-      - id: totals.avg_pageview_per_user
-        name: Average Pageviews per User
-        axisId: totals.avg_pageview_per_user
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 1686
-      showLabels: false
-      showValues: false
-      unpinAxis: false
-      tickDensity: default
-      tickDensityCustom: 5
-      type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 1683
-    - label:
-      orientation: left
-      series:
-      - id: ga_sessions.average_sessions_per_visitor
-        name: Average Sessions Ver Visitor
-        axisId: ga_sessions.average_sessions_per_visitor
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 1702
-      showLabels: false
-      showValues: false
-      unpinAxis: false
-      tickDensity: default
-      tickDensityCustom: 5
-      type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 1699
-    - label:
-      orientation: right
-      series:
-      - id: totals.timeonsite_average_per_session
-        name: Time On Site Average Per Session
-        axisId: totals.timeonsite_average_per_session
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 1718
-      showLabels: false
-      showValues: false
-      unpinAxis: false
-      tickDensity: default
-      tickDensityCustom: 5
-      type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 1715
-    colors:
-    - "#F6659A"
-    - "#B9E49A"
-    - "#FDCB6C"
-    - "#58A9F5"
-    - "#5EC0C4"
-    - "#BFBFBF"
-    - "#7DC06A"
-    - "#D0A997"
-    - "#8696B8"
-    - "#C5D4B2"
-    series_colors: {}
-    hidden_series:
-    - totals.avg_pageview_per_user
-    - ga_sessions.average_sessions_per_visitor
-    x_axis_label_rotation: -45
-    listen:
-      Period: ga_sessions.period
-      Campaign: trafficSource.campaign
-      First Time Visitor: ga_sessions.first_time_visitor
-      Country: geoNetwork.country
-      Page: ga_sessions.has_page
-      Host: ga_sessions.has_host
-      Goal Selection: ga_sessions.goal_selection
-      Search Keyword: trafficSource.keyword
-    row: 12
-    col: 0
-    width: 8
-    height: 13
-  - title: Engagement by Medium
-    name: Engagement by Medium
-    model: event_analytics
-    explore: ga_sessions
-    type: looker_line
-    fields:
-    - totals.avg_pageview_per_user
-    - ga_sessions.average_sessions_per_visitor
-    - totals.timeonsite_average_per_session
-    - ga_sessions.unique_visitors
-    - trafficSource.medium
-    filters:
-      ga_sessions.date_period_latest: 'Yes'
-    sorts:
-    - ga_sessions.unique_visitors desc
-    limit: 8
-    column_limit: 50
-    stacking: ''
-    show_value_labels: true
-    label_density: 25
-    legend_position: center
-    x_axis_gridlines: false
-    y_axis_gridlines: true
-    show_view_names: false
-    limit_displayed_rows: false
-    y_axis_combined: true
-    show_y_axis_labels: false
-    show_y_axis_ticks: true
-    y_axis_tick_density: default
-    y_axis_tick_density_custom: 5
-    show_x_axis_label: true
-    show_x_axis_ticks: true
-    x_axis_scale: auto
-    y_axis_scale_mode: linear
-    x_axis_reversed: false
-    y_axis_reversed: false
-    show_null_points: true
-    point_style: circle
-    interpolation: monotone
-    ordering: none
-    show_null_labels: false
-    show_totals_labels: false
-    show_silhouette: false
-    totals_color: "#808080"
-    series_types:
-      ga_sessions.unique_visitors: column
-    y_axes:
-    - label:
-      orientation: left
-      series:
-      - id: ga_sessions.unique_visitors
-        name: Unique Visitors
-        axisId: ga_sessions.unique_visitors
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 1809
-      showLabels: false
-      showValues: false
-      unpinAxis: false
-      tickDensity: default
-      tickDensityCustom: 5
-      type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 1806
-    - label:
-      orientation: left
-      series:
-      - id: totals.avg_pageview_per_user
-        name: Average Pageviews per User
-        axisId: totals.avg_pageview_per_user
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 1825
-      showLabels: false
-      showValues: false
-      unpinAxis: false
-      tickDensity: default
-      tickDensityCustom: 5
-      type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 1822
-    - label:
-      orientation: left
-      series:
-      - id: ga_sessions.average_sessions_per_visitor
-        name: Average Sessions Ver Visitor
-        axisId: ga_sessions.average_sessions_per_visitor
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 1841
-      showLabels: false
-      showValues: false
-      unpinAxis: false
-      tickDensity: default
-      tickDensityCustom: 5
-      type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 1838
-    - label:
-      orientation: right
-      series:
-      - id: totals.timeonsite_average_per_session
-        name: Time On Site Average Per Session
-        axisId: totals.timeonsite_average_per_session
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 1857
-      showLabels: false
-      showValues: false
-      unpinAxis: false
-      tickDensity: default
-      tickDensityCustom: 5
-      type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 1854
-    colors:
-    - "#F6659A"
-    - "#B9E49A"
-    - "#FDCB6C"
-    - "#58A9F5"
-    - "#5EC0C4"
-    - "#BFBFBF"
-    - "#7DC06A"
-    - "#D0A997"
-    - "#8696B8"
-    - "#C5D4B2"
-    series_colors: {}
-    hidden_series:
-    - totals.avg_pageview_per_user
-    - ga_sessions.average_sessions_per_visitor
-    x_axis_label_rotation: -45
-    listen:
-      Period: ga_sessions.period
-      Campaign: trafficSource.campaign
-      First Time Visitor: ga_sessions.first_time_visitor
-      Country: geoNetwork.country
-      Page: ga_sessions.has_page
-      Host: ga_sessions.has_host
-      Goal Selection: ga_sessions.goal_selection
-      Search Keyword: trafficSource.keyword
-    row: 12
-    col: 8
-    width: 8
-    height: 13
   - title: Time Series
     name: Time Series
     model: event_analytics
@@ -1784,95 +1792,95 @@
       - id: ga_sessions.unique_visitors
         name: Unique Visitors
         axisId: ga_sessions.unique_visitors
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 1498
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 1784
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       tickDensityCustom: 5
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 1495
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 1781
     - label:
       orientation: left
       series:
       - id: ga_sessions.returning_visitors
         name: Returning Visitors
         axisId: ga_sessions.returning_visitors
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 1514
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 1800
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       tickDensityCustom: 5
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 1511
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 1797
     - label:
       orientation: left
       series:
       - id: ga_sessions.session_count
         name: Session Count
         axisId: ga_sessions.session_count
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 1530
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 1816
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       tickDensityCustom: 5
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 1527
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 1813
     - label:
       orientation: left
       series:
       - id: totals.timeonsite_average_per_session
         name: Time On Site Average Per Session
         axisId: totals.timeonsite_average_per_session
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 1546
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 1832
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       tickDensityCustom: 5
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 1543
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 1829
     - label: ''
       orientation: left
       series:
       - id: percent_new_visitors
         name: Percent New Visitors
         axisId: percent_new_visitors
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 1562
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 1848
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 1559
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 1845
     - label:
       orientation: right
       series:
       - id: totals.transaction_conversion_rate
         name: Transaction Conversion Rate
         axisId: totals.transaction_conversion_rate
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 1577
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 1863
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       tickDensityCustom: 5
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 1574
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 1860
     colors:
     - "#58A9F5"
     - "#B9E49A"
@@ -1900,6 +1908,7 @@
       Host: ga_sessions.has_host
       Goal Selection: ga_sessions.goal_selection
       Search Keyword: trafficSource.keyword
+      Property: ga_sessions.property
     row: 2
     col: 0
     width: 24
@@ -1966,64 +1975,64 @@
       - id: ga_sessions.unique_visitors
         name: Unique Visitors
         axisId: ga_sessions.unique_visitors
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 1957
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 1966
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       tickDensityCustom: 5
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 1954
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 1963
     - label:
       orientation: left
       series:
       - id: totals.avg_pageview_per_user
         name: Average Pageviews per User
         axisId: totals.avg_pageview_per_user
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 1973
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 1982
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       tickDensityCustom: 5
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 1970
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 1979
     - label:
       orientation: left
       series:
       - id: ga_sessions.average_sessions_per_visitor
         name: Average Sessions Ver Visitor
         axisId: ga_sessions.average_sessions_per_visitor
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 1989
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 1998
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       tickDensityCustom: 5
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 1986
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 1995
     - label:
       orientation: right
       series:
       - id: totals.timeonsite_average_per_session
         name: Time On Site Average Per Session
         axisId: totals.timeonsite_average_per_session
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 2005
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 2014
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       tickDensityCustom: 5
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 2002
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 2011
     colors:
     - "#F6659A"
     - "#B9E49A"
@@ -2051,6 +2060,7 @@
       Host: ga_sessions.has_host
       Goal Selection: ga_sessions.goal_selection
       Search Keyword: trafficSource.keyword
+      Property: ga_sessions.property
     row: 12
     col: 16
     width: 8
@@ -2122,15 +2132,15 @@
         colors:
         - "#fff"
         - "#58A9F5"
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 2111
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 2121
       bold: false
       italic: false
       strikethrough: false
       fields:
       - ga_sessions.session_count
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 2106
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 2116
     series_labels:
       ga_sessions.visitStart_hour_of_day: Hour of Day
       ga_sessions.visitStart_day_of_week: Day of Week
@@ -2145,6 +2155,7 @@
       Host: ga_sessions.has_host
       Goal Selection: ga_sessions.goal_selection
       Search Keyword: trafficSource.keyword
+      Property: ga_sessions.property
     row: 25
     col: 0
     width: 12
@@ -2191,15 +2202,15 @@
       - id: ga_sessions.unique_visitors
         name: Unique Visitors
         axisId: ga_sessions.unique_visitors
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 2303
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 2191
       showLabels: true
       showValues: false
       unpinAxis: false
       tickDensity: default
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 2300
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 2188
     y_axis_combined: true
     show_y_axis_labels: true
     show_y_axis_ticks: true
@@ -2232,6 +2243,7 @@
       Host: ga_sessions.has_host
       Goal Selection: ga_sessions.goal_selection
       Search Keyword: trafficSource.keyword
+      Property: ga_sessions.property
     row: 25
     col: 12
     width: 12
@@ -2301,64 +2313,64 @@
       - id: totals.transactionRevenue_total
         name: Transaction Revenue Total
         axisId: totals.transactionRevenue_total
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 2412
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 2301
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       tickDensityCustom: 5
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 2409
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 2298
     - label: ''
       orientation: bottom
       series:
       - id: totals.transaction_conversion_rate
         name: Transaction Conversion Rate
         axisId: totals.transaction_conversion_rate
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 2428
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 2317
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       tickDensityCustom: 5
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 2425
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 2314
     - label:
       orientation: bottom
       series:
       - id: ga_sessions.unique_visitors
         name: Unique Visitors
         axisId: ga_sessions.unique_visitors
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 2444
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 2333
       showLabels: true
       showValues: true
       unpinAxis: false
       tickDensity: default
       tickDensityCustom: 5
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 2441
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 2330
     - label:
       orientation: bottom
       series:
       - id: totals.average_revenue_per_user
         name: Average Revenue per User
         axisId: totals.average_revenue_per_user
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 2460
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 2349
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       tickDensityCustom: 5
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 2457
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 2346
     colors:
     - 'palette: Fuchsia to Green'
     series_colors:
@@ -2376,6 +2388,7 @@
       Host: ga_sessions.has_host
       Goal Selection: ga_sessions.goal_selection
       Search Keyword: trafficSource.keyword
+      Property: ga_sessions.property
     row: 40
     col: 12
     width: 12
@@ -2435,47 +2448,47 @@
       - id: totals.transaction_conversion_rate
         name: Transaction Conversion Rate
         axisId: totals.transaction_conversion_rate
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 2193
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 2435
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       tickDensityCustom: 5
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 2190
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 2432
     - label:
       orientation: bottom
       series:
       - id: ga_sessions.unique_visitors
         name: Unique Visitors
         axisId: ga_sessions.unique_visitors
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 2209
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 2451
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: custom
       tickDensityCustom: 3
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 2206
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 2448
     - label: ''
       orientation: bottom
       series:
       - id: totals.timeonsite_average_per_session
         name: Time On Site Average Per Session
         axisId: totals.timeonsite_average_per_session
-        __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-        __LINE_NUM: 2225
+        __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+        __LINE_NUM: 2467
       showLabels: false
       showValues: false
       unpinAxis: false
       tickDensity: default
       type: linear
-      __FILE: app-event-ga360/google_analytics_overview.dashboard.lookml
-      __LINE_NUM: 2222
+      __FILE: 91b39630a0c7233f58a1fcd7ee4e38a4ac9dd140c2d0b4d46764a41e3df29fa8c1c781cb/google_analytics_overview.dashboard.lookml
+      __LINE_NUM: 2464
     colors:
     - "#B9E49A"
     - "#FDCB6C"
@@ -2500,6 +2513,7 @@
       Host: ga_sessions.has_host
       Goal Selection: ga_sessions.goal_selection
       Search Keyword: trafficSource.keyword
+      Property: ga_sessions.property
     row: 40
     col: 0
     width: 12
@@ -2575,6 +2589,16 @@
     explore: ga_sessions
     listens_to_filters: []
     field: ga_sessions.goal_selection
+  - name: Property
+    title: Property
+    type: field_filter
+    default_value: ''
+    allow_multiple_values: true
+    required: false
+    model: event_analytics
+    explore: ga_sessions
+    listens_to_filters: []
+    field: ga_sessions.property
   - name: Search Keyword
     title: Search Keyword
     type: field_filter
