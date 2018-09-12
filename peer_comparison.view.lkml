@@ -166,7 +166,6 @@ view: peer_comparison {
 }
 
 explore: peer_comparison {
-  hidden: no
   from: peer_comparison
   view_name: ga_sessions
   label: "Peer Comparison"
