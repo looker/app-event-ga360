@@ -179,7 +179,7 @@ view: period_base {
     description: "Start date for last two periods"
     type: date
     group_label: "Event"
-    sql: DATE_ADD(CURRENT_DATE(), INTERVAL -1
+    sql: TIMESTAMP(DATE_ADD(CURRENT_DATE(), INTERVAL -1
       {% if period._parameter_value contains "day" %}
         {% if period._parameter_value == "'7 day'" %}*7 DAY
         {% elsif period._parameter_value == "'28 day'" %}*28 DAY
@@ -191,7 +191,7 @@ view: period_base {
       {% elsif period._parameter_value contains "month" %} MONTH
       {% elsif period._parameter_value contains "quarter" %} QUARTER
       {% elsif period._parameter_value contains "year" %} YEAR
-      {% endif %}) ;;
+      {% endif %})) ;;
   }
 
   dimension: date_period_end_date {
