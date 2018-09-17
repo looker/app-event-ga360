@@ -139,15 +139,27 @@ view: period_base {
     label: "Prior Period"
     type: date
     convert_tz: no
-    sql: DATE_ADD(${date_period}, INTERVAL -{% if period._parameter_value == "'7 day'" %}7{% elsif period._parameter_value == "'28 day'" %}28{% elsif period._parameter_value == "'91 day'" %}91{% elsif period._parameter_value == "'364 day'" %}364{% else %}1{% endif %} {% if period._parameter_value contains "day" %}day{% elsif period._parameter_value contains "week" %}week{% elsif period._parameter_value contains "month" %}month{% elsif period._parameter_value contains "quarter" %}quarter{% elsif period._parameter_value contains "year" %}year{% endif %}) ;;
+    sql: DATE_ADD(${date_period},
+    INTERVAL -{% if period._parameter_value == "'7 day'" %}7
+    {% elsif period._parameter_value == "'28 day'" %}28
+    {% elsif period._parameter_value == "'91 day'" %}91
+    {% elsif period._parameter_value == "'364 day'" %}364
+    {% else %}1
+    {% endif %}
+    {% if period._parameter_value contains "day" %}day
+    {% elsif period._parameter_value contains "week" %}week
+    {% elsif period._parameter_value contains "month" %}month
+    {% elsif period._parameter_value contains "quarter" %}quarter
+    {% elsif period._parameter_value contains "year" %}year
+    {% endif %}) ;;
     allow_fill: no
   }
   dimension: date_period_start_date_comparison_period {
-    hidden: yes
+    hidden: no
     description: "Start date for last two periods"
     type: date
     group_label: "Event"
-    sql: DATE_ADD(CURRENT_DATE(), INTERVAL -2
+    sql: TIMESTAMP(DATE_ADD(CURRENT_DATE(), INTERVAL -2
       {% if period._parameter_value contains "day" %}
         {% if period._parameter_value == "'7 day'" %}*7 DAY
         {% elsif period._parameter_value == "'28 day'" %}*28 DAY
@@ -159,7 +171,7 @@ view: period_base {
       {% elsif period._parameter_value contains "month" %} MONTH
       {% elsif period._parameter_value contains "quarter" %} QUARTER
       {% elsif period._parameter_value contains "year" %} YEAR
-      {% endif %}) ;;
+      {% endif %})) ;;
   }
 
   dimension: date_period_start_date_latest_period {
@@ -167,7 +179,7 @@ view: period_base {
     description: "Start date for last two periods"
     type: date
     group_label: "Event"
-    sql: DATE_ADD(CURRENT_DATE(), INTERVAL -1
+    sql: TIMESTAMP(DATE_ADD(CURRENT_DATE(), INTERVAL -1
       {% if period._parameter_value contains "day" %}
         {% if period._parameter_value == "'7 day'" %}*7 DAY
         {% elsif period._parameter_value == "'28 day'" %}*28 DAY
@@ -179,7 +191,7 @@ view: period_base {
       {% elsif period._parameter_value contains "month" %} MONTH
       {% elsif period._parameter_value contains "quarter" %} QUARTER
       {% elsif period._parameter_value contains "year" %} YEAR
-      {% endif %}) ;;
+      {% endif %})) ;;
   }
 
   dimension: date_period_end_date {
@@ -187,7 +199,7 @@ view: period_base {
     description: "Start date for last two periods?"
     type: date
     group_label: "Event"
-    sql: CURRENT_DATE();;
+    sql: TIMESTAMP(CURRENT_DATE());;
   }
 
   dimension: date_period_comparison_period {
