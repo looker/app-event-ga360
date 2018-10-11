@@ -98,7 +98,7 @@ view: period_fact {
     value_format_name: usd
   }
 
-  measure: converions_rate {
+  measure: conversion_rate {
     type: number
     sql:  ${total_transactions} / NULLIF(${session_count}, 0) ;;
     value_format_name: decimal_1
