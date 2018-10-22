@@ -124,6 +124,7 @@ view: cohort {
 
   dimension: _date {
     hidden:  yes
+    sql: DATE(${TABLE}._date) ;;
   }
 }
 
