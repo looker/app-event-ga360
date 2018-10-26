@@ -72,6 +72,7 @@ view: period_fact {
   dimension: _date {
     hidden: yes
     type: date_raw
+    sql: DATE(${TABLE}._date) ;;
   }
 
   measure: session_count {
