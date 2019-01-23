@@ -159,7 +159,7 @@ view: period_base {
     description: "Start date for last two periods"
     type: date
     group_label: "Event"
-    sql: TIMESTAMP(DATE_ADD(CURRENT_DATE(), INTERVAL -2
+    sql: TIMESTAMP(DATETIME_ADD(CURRENT_DATETIME(), INTERVAL -2
       {% if period._parameter_value contains "day" %}
         {% if period._parameter_value == "'7 day'" %}*7 DAY
         {% elsif period._parameter_value == "'28 day'" %}*28 DAY
@@ -175,11 +175,11 @@ view: period_base {
   }
 
   dimension: date_period_start_date_latest_period {
-    hidden: yes
+    hidden: no
     description: "Start date for last two periods"
     type: date
     group_label: "Event"
-    sql: TIMESTAMP(DATE_ADD(CURRENT_DATE(), INTERVAL -1
+    sql: TIMESTAMP(DATETIME_ADD(CURRENT_DATETIME(), INTERVAL -1
       {% if period._parameter_value contains "day" %}
         {% if period._parameter_value == "'7 day'" %}*7 DAY
         {% elsif period._parameter_value == "'28 day'" %}*28 DAY
@@ -199,7 +199,7 @@ view: period_base {
     description: "Start date for last two periods?"
     type: date
     group_label: "Event"
-    sql: TIMESTAMP(CURRENT_DATE());;
+    sql: CURRENT_TIMESTAMP() ;;
   }
 
   dimension: date_period_comparison_period {
@@ -314,7 +314,7 @@ view: period_fact_period_base {
       {% endif %} ;;
   }
   dimension: date_period_start_date_comparison_period {
-    sql: DATE_ADD(CURRENT_DATE(), INTERVAL -2
+    sql: DATETIME_ADD(CURRENT_DATETIME(), INTERVAL -2
       {% if period._parameter_value contains "day" %}
         {% if period._parameter_value == "'7 day'" %}*7 DAY
         {% elsif period._parameter_value == "'28 day'" %}*28 DAY
